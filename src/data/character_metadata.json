@@ -1,537 +1,965 @@
 {
-  "5065": {
-    "name": "Crown",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/re-32/pl-77/3e27dfb8c8c64a747ec03e0326602e64.webp",
-    "combat": 77073
+  "1010": {
+    "name": "Laplace",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/zx-36/mr-03/8570e243df69efb6b024768b3f7dc68d.webp",
+    "element": "iron",
+    "weaponType": "Rocket Launcher",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "5155": {
-    "name": "Nayuta",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/xb-83/yy-27/fe88615112dc637fc1fa22415cf19d3a.webp",
-    "combat": 76175
+  "1012": {
+    "name": "Sakura",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/re-77/bo-54/c725d0c614734d4dc9b101ba696f79ae.webp",
+    "element": "fire",
+    "weaponType": "Sniper Rifle",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
   },
-  "5101": {
-    "name": "Red Hood",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/hr-37/pg-46/ce2a308fb7df5a7634d458703734c85f.webp",
-    "combat": 76145
+  "1013": {
+    "name": "Soldier EG",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/nl-66/qu-78/440091c5ffb11d31b3519e2a643431ad.webp",
+    "element": "electronic",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "R"
   },
-  "5124": {
-    "name": "Cinderella",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/vy-37/nq-87/17602f0ce49d38a4a53823023b072d6c.webp",
-    "combat": 75292
+  "1014": {
+    "name": "Soldier FA",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/sr-94/wb-06/2222991899ba88a337469c22ad54c3f9.webp",
+    "element": "iron",
+    "weaponType": "Shot Gun",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "R"
   },
-  "5156": {
-    "name": "Liberalio",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/qw-70/qa-64/0f87bd202582cc8fc6d7388fc6de4cd4.webp",
-    "combat": 73028
+  "1015": {
+    "name": "Product 08",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ha-98/ly-11/e7ca5f4ce81a8128ac2a81873c28c0a8.webp",
+    "element": "electronic",
+    "weaponType": "Sniper Rifle",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "R"
   },
-  "5011": {
-    "name": "Liter",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/ym-30/oe-03/ef1a8ecd993ca9fdd6b1d3967d07d5ab.webp",
-    "combat": 72543
+  "1016": {
+    "name": "Product 12",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/xz-34/rf-38/ed5c23ce017d6071a3b3814d333bae37.webp",
+    "element": "fire",
+    "weaponType": "Machine Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "R"
   },
-  "5131": {
-    "name": "Anchor: Innocent Maid",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/xp-58/ej-05/b134044273e168242de939b80f6cded3.webp",
-    "combat": 71012
+  "1017": {
+    "name": "iDoll Flower",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/mi-38/hc-43/8e09c33ceef34fee83133206137b67f9.webp",
+    "element": "wind",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Defender",
+    "rarity": "R"
   },
-  "5148": {
-    "name": "Vesti: Tactical Upgrade",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/cq-57/hk-19/d9e647e72e107a7102dc2dadf4b6e044.webp",
-    "combat": 70760
-  },
-  "5099": {
-    "name": "Naga",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/fk-90/ke-00/aef6a2982f1b2da1ed28503a17b4c641.webp",
-    "combat": 70625
-  },
-  "5066": {
-    "name": "Helm",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/nb-90/dy-45/dedbb554eb7eaf6c3e251cc77d146f5b.webp",
-    "combat": 69723
-  },
-  "5145": {
-    "name": "Dorothy: Serendipity",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/ql-25/kv-98/77625e5de4c3008ec3db11b9d3d509e3.webp",
-    "combat": 69434
-  },
-  "5130": {
-    "name": "Mast: Romantic Maid",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/gq-23/zc-77/fda1b87ec4fdb9e34135e9be99293216.webp",
-    "combat": 69071
-  },
-  "5097": {
-    "name": "Anis: Sparkling Summer",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/qy-91/lb-38/aafd750fc87ae293aeb10569f02bf736.webp",
-    "combat": 65880
-  },
-  "5077": {
-    "name": "Ein",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/ue-83/bw-44/0f8cbab3f3d69f17fb9a7cb144dd1772.webp",
-    "combat": 65847
-  },
-  "5152": {
-    "name": "Ada",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/xm-55/vb-82/2cd0b5c2ec4434cbcb58902949accfc4.webp",
-    "combat": 61783
-  },
-  "5004": {
-    "name": "Alice",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/pt-29/ij-46/962293c26e61c938785ef1cdf75165cf.webp",
-    "combat": 58125
-  },
-  "5151": {
-    "name": "Ade: Agent Bunny",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/cd-61/qo-01/45892e7be638237db3f25e297f4a646d.webp",
-    "combat": 39884
-  },
-  "5049": {
-    "name": "Rouge",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/bl-65/oc-48/c62799d0ba47a9a58813fcab22948321.webp",
-    "combat": 39028
-  },
-  "5110": {
-    "name": "D: Killer Wife",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/ig-61/fq-26/5020d38f1d8d7cfb995a0fa861a47b8c.webp",
-    "combat": 38612
-  },
-  "5008": {
-    "name": "Blanc",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/wd-26/sy-16/7872356d4de999b2de89ba83f84ce1cf.webp",
-    "combat": 38464
-  },
-  "3004": {
-    "name": "Rumani",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/cd-48/sp-18/497c03beea8140362d51b26450fdd2e8.webp",
-    "combat": 38417
-  },
-  "5138": {
-    "name": "Mihara: Bonding Chain",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/kc-55/xx-53/0f2752909663009ffa5e82c5863053fc.webp",
-    "combat": 38078
-  },
-  "5054": {
-    "name": "Biscuit",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/ss-64/ih-91/304dc723137113cfac711b929ad9f8b1.webp",
-    "combat": 37396
-  },
-  "1021": {
-    "name": "Moran",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/ly-49/wh-27/4e099b3818543f9c79440a3c76a2b223.webp",
-    "combat": 37275
-  },
-  "5009": {
-    "name": "Noir",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/bj-54/yf-43/c575a7c99dfaa1a61db090d9b87f70bf.webp",
-    "combat": 36845
+  "1018": {
+    "name": "iDoll Ocean",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ro-66/mj-70/c9940bc83a7e4247036309f88c31d1fa.webp",
+    "element": "water",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "R"
   },
   "1020": {
     "name": "Jackal",
     "imageUrl": "https://sg-tools-cdn.blablalink.com/yv-35/gt-38/db98dfc4421259794aebf0648d17f2ec.webp",
-    "combat": 36367
+    "element": "iron",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Defender",
+    "rarity": "SSR"
   },
-  "5007": {
-    "name": "Privaty",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/eq-56/hi-69/04cf851055be25be089e042ae3b1e3f2.webp",
-    "combat": 36019
+  "1021": {
+    "name": "Moran",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ly-49/wh-27/4e099b3818543f9c79440a3c76a2b223.webp",
+    "element": "electronic",
+    "weaponType": "Assault Rifle",
+    "burstType": "1",
+    "class": "Defender",
+    "rarity": "SSR"
   },
-  "5125": {
-    "name": "Grave",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/pp-80/yr-25/e1c012a6cb0024dce39a43446824b7cf.webp",
-    "combat": 33241
+  "1022": {
+    "name": "Viper",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/pu-70/ma-65/03ee7d40334c3ce266a58075992ca37c.webp",
+    "element": "water",
+    "weaponType": "Shot Gun",
+    "burstType": "2",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "5100": {
-    "name": "Tia",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/tt-94/ab-05/0bfb9c588835f7803e7cbd35f44805f4.webp",
-    "combat": 33235
+  "1023": {
+    "name": "iDoll Sun",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/lf-10/sx-76/4f0aa7d55fa2bd6a88fd10eed25f106f.webp",
+    "element": "iron",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Supporter",
+    "rarity": "R"
   },
-  "5061": {
-    "name": "Dorothy",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/lf-96/fo-71/8bbc7ab3edd9b45c64e97f570c04f62d.webp",
-    "combat": 32808
+  "1024": {
+    "name": "Product 23",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ld-98/nq-49/1531b4fdf30a8ebe7108af86ef543d28.webp",
+    "element": "wind",
+    "weaponType": "Shot Gun",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "R"
   },
-  "5150": {
-    "name": "Milk: Blooming Bunny",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/pa-76/rq-90/e4d447cdfab84aa03bb671c67db609e4.webp",
-    "combat": 32763
+  "1025": {
+    "name": "Soldier OW",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/fx-70/cg-75/2b8ee0780f7ce18a1e4a51ccc9d27c3f.webp",
+    "element": "fire",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "R"
   },
-  "5092": {
-    "name": "Leona",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/xy-92/tr-65/fb475580a80d1c9dc933c02b4ef15383.webp",
-    "combat": 31925
+  "3001": {
+    "name": "Rapi",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ds-16/yt-22/67e341816e80e0c1e13903e5de58875b.webp",
+    "element": "fire",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SR"
   },
-  "5081": {
-    "name": "Tove",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/ec-33/yg-51/9844bd23912e56863a9bdaaaab5b6047.webp",
-    "combat": 31630
+  "3002": {
+    "name": "Neon",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/du-27/oq-27/4bcf958cbdaf70c1073fc04d7861ca57.webp",
+    "element": "fire",
+    "weaponType": "Shot Gun",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SR"
+  },
+  "3003": {
+    "name": "Delta",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/oh-11/cy-52/e698e3f6f975e4d7d81882a0c26b68af.webp",
+    "element": "wind",
+    "weaponType": "Sniper Rifle",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "SR"
+  },
+  "3004": {
+    "name": "Rumani",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/cd-48/sp-18/497c03beea8140362d51b26450fdd2e8.webp",
+    "element": "fire",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Defender",
+    "rarity": "SSR"
   },
   "3005": {
     "name": "Anis",
     "imageUrl": "https://sg-tools-cdn.blablalink.com/ja-55/aa-01/a889989b035b19ba06a3943ca69764b5.webp",
-    "combat": 31204
+    "element": "iron",
+    "weaponType": "Rocket Launcher",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "SR"
   },
-  "5113": {
-    "name": "Soda: Twinkling Bunny",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/cb-50/ar-95/b569e2b452e046be79f642764a4fc009.webp",
-    "combat": 30679
-  },
-  "5075": {
-    "name": "Volume",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/ki-12/xu-90/add2fb308eb66b428b1207b78eb59765.webp",
-    "combat": 29679
-  },
-  "5021": {
-    "name": "Centi",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 29489
-  },
-  "5018": {
-    "name": "Brid",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/ui-03/ov-40/3765d35123965f85bcd984487e0edd03.webp",
-    "combat": 29221
-  },
-  "5034": {
-    "name": "Rupee",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 28696
-  },
-  "5153": {
-    "name": "Jill",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 28655
-  },
-  "5126": {
-    "name": "Flora",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 28614
-  },
-  "5106": {
-    "name": "Privaty: Unkind Maid",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/wv-22/ph-22/ddcf4c573c63d5cd750b3599068ab604.webp",
-    "combat": 28483
-  },
-  "5012": {
-    "name": "Snow White",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 28359
-  },
-  "5121": {
-    "name": "Quency: Escape Queen",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 27836
-  },
-  "5020": {
-    "name": "Diesel",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/nx-35/jz-72/d65894d220255968fb4be0b5af9e6d11.webp",
-    "combat": 27682
-  },
-  "5147": {
-    "name": "Emma: Tactical Upgrade",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/oh-53/rn-14/d6ec0bb1f4becae143497bbaff00fe67.webp",
-    "combat": 27515
-  },
-  "5070": {
-    "name": "Aria",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 27256
-  },
-  "5050": {
-    "name": "Cocoa",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 27243
-  },
-  "5115": {
-    "name": "Clay",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 27124
-  },
-  "3009": {
-    "name": "N102",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 23081
+  "3006": {
+    "name": "Mihara",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ew-27/sq-26/6b8536d8e0334609ade525a069143b79.webp",
+    "element": "water",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SR"
   },
   "3007": {
     "name": "Belorta",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 22056
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/jt-08/qt-56/71486e06b7eed896e61c261b23dc2a43.webp",
+    "element": "electronic",
+    "weaponType": "Rocket Launcher",
+    "burstType": "2",
+    "class": "Attacker",
+    "rarity": "SR"
   },
   "3008": {
     "name": "Mica",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 21774
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/yc-12/gq-61/795903dcf94a765f7fb2191b64e922c9.webp",
+    "element": "wind",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SR"
   },
-  "1014": {
-    "name": "Soldier FA",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 19137
+  "3009": {
+    "name": "N102",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/vb-26/oy-17/68dd4d7968584e7319985498c12a84d9.webp",
+    "element": "water",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SR"
   },
-  "5024": {
-    "name": "Drake",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 11254
+  "3010": {
+    "name": "Ether",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/wn-44/uj-11/26638ab9c8ff131f62c2e1ae1bffc0d5.webp",
+    "element": "electronic",
+    "weaponType": "Shot Gun",
+    "burstType": "1",
+    "class": "Defender",
+    "rarity": "SR"
   },
-  "5095": {
-    "name": "A2",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 7379
+  "3016": {
+    "name": "Lily",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/qy-08/wv-59/be1cc9e0ca0c800c1a07223ecb192882.webp",
+    "element": "wind",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SR"
   },
-  "5044": {
-    "name": "Modernia",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 7133
-  },
-  "5006": {
-    "name": "Yuni",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 6570
-  },
-  "5149": {
-    "name": "Eunhwa: Tactical Upgrade",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 6446
-  },
-  "5123": {
-    "name": "Rapunzel: Pure Grace",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 6396
-  },
-  "5144": {
-    "name": "Sora",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/wi-55/ve-29/b524321235dcceaccb01178d0134a855.webp",
-    "combat": 6363
-  },
-  "1010": {
-    "name": "Laplace",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 6284
-  },
-  "5033": {
-    "name": "Ludmilla",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 6166
-  },
-  "5023": {
-    "name": "Eunhwa",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/jb-25/mg-86/0aec8646f99d350a3b807b99f5675a4e.webp",
-    "combat": 6107
-  },
-  "1012": {
-    "name": "Sakura",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5994
-  },
-  "5135": {
-    "name": "Bready",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5973
-  },
-  "5045": {
-    "name": "Rosanna",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5972
-  },
-  "5134": {
-    "name": "Trina",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5921
-  },
-  "5027": {
-    "name": "Pepper",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5919
-  },
-  "5036": {
-    "name": "Dolla",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5860
-  },
-  "5146": {
-    "name": "Elegg: Boom and Shock",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5850
-  },
-  "5014": {
-    "name": "Julia",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5794
-  },
-  "5042": {
-    "name": "Harran",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5783
-  },
-  "5013": {
-    "name": "Isabel",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5779
-  },
-  "5082": {
-    "name": "Quiry",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/xr-66/bl-95/f6b8125300f3eceaec15efc6f38a5c5f.webp",
-    "combat": 5764
-  },
-  "5112": {
-    "name": "Trony",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5739
-  },
-  "5029": {
-    "name": "Yulha",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5736
-  },
-  "5022": {
-    "name": "Vesti",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/iz-14/wj-81/67ef63eef0c98905868f86e2bd76f65c.webp",
-    "combat": 5659
-  },
-  "5157": {
-    "name": "Chime",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5656
-  },
-  "5046": {
-    "name": "Ade",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5632
-  },
-  "5039": {
-    "name": "Folkwang",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5629
+  "3017": {
+    "name": "Pascal",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/vm-11/ja-55/15d6d81bae12faf9ab117064296e8e2a.webp",
+    "element": "iron",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SR"
   },
   "5001": {
     "name": "Maxwell",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5535
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ff-75/ny-81/9f0972d1fdc850e7c54481045add9a3a.webp",
+    "element": "iron",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "1022": {
-    "name": "Viper",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5429
+  "5004": {
+    "name": "Alice",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/pt-29/ij-46/962293c26e61c938785ef1cdf75165cf.webp",
+    "element": "fire",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "5055": {
-    "name": "Guilty",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5411
+  "5006": {
+    "name": "Yuni",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/qn-23/ct-21/c93daf37219a5d9cd0a4e983407bf1f4.webp",
+    "element": "fire",
+    "weaponType": "Rocket Launcher",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "SSR"
   },
-  "5141": {
-    "name": "Snow White: Innocent Days",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5404
+  "5007": {
+    "name": "Privaty",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/eq-56/hi-69/04cf851055be25be089e042ae3b1e3f2.webp",
+    "element": "water",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5008": {
+    "name": "Blanc",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/wd-26/sy-16/7872356d4de999b2de89ba83f84ce1cf.webp",
+    "element": "wind",
+    "weaponType": "Assault Rifle",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "SSR"
+  },
+  "5009": {
+    "name": "Noir",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/bj-54/yf-43/c575a7c99dfaa1a61db090d9b87f70bf.webp",
+    "element": "wind",
+    "weaponType": "Shot Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5011": {
+    "name": "Liter",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ym-30/oe-03/ef1a8ecd993ca9fdd6b1d3967d07d5ab.webp",
+    "element": "iron",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5012": {
+    "name": "Snow White",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/bv-41/ay-81/94a873b7bb8d725729dd19ed2c78e0c3.webp",
+    "element": "iron",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5013": {
+    "name": "Isabel",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/rq-64/kk-39/0ee20b8c0278f9fa30d249437c17f554.webp",
+    "element": "electronic",
+    "weaponType": "Shot Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5014": {
+    "name": "Julia",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/fy-28/er-37/7000e771a4418218373833e8ebb594c2.webp",
+    "element": "iron",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
   "5015": {
     "name": "Epinel",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5404
-  },
-  "5038": {
-    "name": "K",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/or-29/ej-47/2eaf7db2da652f1a27eeb44e476b01aa.webp",
-    "combat": 5404
-  },
-  "5102": {
-    "name": "Signal",
-    "imageUrl": "https://sg-tools-cdn.blablalink.com/tp-50/yc-84/46501ce3573bb3b4bf48a18aed75141c.webp",
-    "combat": 5404
-  },
-  "5074": {
-    "name": "Noise",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5386
-  },
-  "5035": {
-    "name": "Yan",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5386
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/qm-52/im-23/042fde51182ae51d56e54aacb98ee965.webp",
+    "element": "wind",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
   "5017": {
     "name": "Miranda",
     "imageUrl": "https://sg-tools-cdn.blablalink.com/sl-38/we-68/096df3a3777319b2052b72140d90fc36.webp",
-    "combat": 5375
+    "element": "fire",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5018": {
+    "name": "Brid",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ui-03/ov-40/3765d35123965f85bcd984487e0edd03.webp",
+    "element": "water",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5020": {
+    "name": "Diesel",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/nx-35/jz-72/d65894d220255968fb4be0b5af9e6d11.webp",
+    "element": "wind",
+    "weaponType": "Machine Gun",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "SSR"
+  },
+  "5021": {
+    "name": "Centi",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/te-90/ta-70/d57caffda19eb1f86222c8c38856c1c6.webp",
+    "element": "iron",
+    "weaponType": "Rocket Launcher",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "SSR"
+  },
+  "5022": {
+    "name": "Vesti",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/iz-14/wj-81/67ef63eef0c98905868f86e2bd76f65c.webp",
+    "element": "water",
+    "weaponType": "Rocket Launcher",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5023": {
+    "name": "Eunhwa",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/jb-25/mg-86/0aec8646f99d350a3b807b99f5675a4e.webp",
+    "element": "fire",
+    "weaponType": "Sniper Rifle",
+    "burstType": "2",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5024": {
+    "name": "Drake",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/zz-47/co-08/657d665637cb69e6685e151d2f52665d.webp",
+    "element": "fire",
+    "weaponType": "Shot Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5027": {
+    "name": "Pepper",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/kw-49/sh-28/11229815d040f110c82807eab0f3bf65.webp",
+    "element": "wind",
+    "weaponType": "Shot Gun",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5029": {
+    "name": "Yulha",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/gi-46/mf-78/46d234a1e76f5d937a09bee9199997f5.webp",
+    "element": "fire",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5033": {
+    "name": "Ludmilla",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/kn-01/dc-19/af682749dc90bebea213d17707a1c383.webp",
+    "element": "water",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "1",
+    "class": "Defender",
+    "rarity": "SSR"
+  },
+  "5034": {
+    "name": "Rupee",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/gr-51/eu-14/36e3fea4735cc1d125a7556aba991832.webp",
+    "element": "iron",
+    "weaponType": "Assault Rifle",
+    "burstType": "2",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5035": {
+    "name": "Yan",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/lx-79/kb-41/13f61aa0b8f84d1ae378913947f22cc5.webp",
+    "element": "fire",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5036": {
+    "name": "Dolla",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/lz-90/zy-46/4099a0fe948e59b3a0462c006ad78fdf.webp",
+    "element": "wind",
+    "weaponType": "Sniper Rifle",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5038": {
+    "name": "K",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/or-29/ej-47/2eaf7db2da652f1a27eeb44e476b01aa.webp",
+    "element": "electronic",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5039": {
+    "name": "Folkwang",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/vs-80/nt-50/a84141b22b7f22626d7be0cc0c081690.webp",
+    "element": "water",
+    "weaponType": "Assault Rifle",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "SSR"
+  },
+  "5042": {
+    "name": "Harran",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ro-53/un-34/a99b6140b06facc05f70c355dbdd49e4.webp",
+    "element": "electronic",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5044": {
+    "name": "Modernia",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/lo-31/ot-85/3446827ab13559809f688640e7b5a378.webp",
+    "element": "fire",
+    "weaponType": "Machine Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5045": {
+    "name": "Rosanna",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/xp-45/gk-22/929b0170cedda4265a4dbcae9f48db5a.webp",
+    "element": "electronic",
+    "weaponType": "Machine Gun",
+    "burstType": "1",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5046": {
+    "name": "Ade",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ox-85/eg-84/3a606c8edda3ff7e519c2b5c647ccc0e.webp",
+    "element": "wind",
+    "weaponType": "Assault Rifle",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5049": {
+    "name": "Rouge",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/bl-65/oc-48/c62799d0ba47a9a58813fcab22948321.webp",
+    "element": "electronic",
+    "weaponType": "Sniper Rifle",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5050": {
+    "name": "Cocoa",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/dg-89/ud-89/0535d5dc13aef2cfcff14a5525398792.webp",
+    "element": "fire",
+    "weaponType": "Sniper Rifle",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5054": {
+    "name": "Biscuit",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ss-64/ih-91/304dc723137113cfac711b929ad9f8b1.webp",
+    "element": "electronic",
+    "weaponType": "Rocket Launcher",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5055": {
+    "name": "Guilty",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/lc-06/se-65/b5d07aadd368be41b0d8625185bcee2b.webp",
+    "element": "wind",
+    "weaponType": "Shot Gun",
+    "burstType": "2",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5061": {
+    "name": "Dorothy",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/lf-96/fo-71/8bbc7ab3edd9b45c64e97f570c04f62d.webp",
+    "element": "water",
+    "weaponType": "Assault Rifle",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5065": {
+    "name": "Crown",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/re-32/pl-77/3e27dfb8c8c64a747ec03e0326602e64.webp",
+    "element": "iron",
+    "weaponType": "Machine Gun",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "SSR"
+  },
+  "5066": {
+    "name": "Helm",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/nb-90/dy-45/dedbb554eb7eaf6c3e251cc77d146f5b.webp",
+    "element": "water",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
   "5068": {
     "name": "Nero",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 5347
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ej-60/sk-86/e960fb1ee3a28546edea49ed965708a5.webp",
+    "element": "fire",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "2",
+    "class": "Defender",
+    "rarity": "SSR"
   },
-  "3001": {
-    "name": "Rapi",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 2903
+  "5070": {
+    "name": "Aria",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/yr-16/nr-95/0be9690ed3bc510d8721b885e09f66b4.webp",
+    "element": "water",
+    "weaponType": "Machine Gun",
+    "burstType": "2",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "3006": {
-    "name": "Mihara",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 2251
+  "5074": {
+    "name": "Noise",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/fc-83/sn-63/95f0d5b71fc3c60eaf4d4928ca42d47e.webp",
+    "element": "electronic",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
   },
-  "3002": {
-    "name": "Neon",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 2242
+  "5075": {
+    "name": "Volume",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ki-12/xu-90/add2fb308eb66b428b1207b78eb59765.webp",
+    "element": "wind",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "1",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "3003": {
-    "name": "Delta",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 2225
+  "5077": {
+    "name": "Ein",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ue-83/bw-44/0f8cbab3f3d69f17fb9a7cb144dd1772.webp",
+    "element": "electronic",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "3010": {
-    "name": "Ether",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1993
+  "5081": {
+    "name": "Tove",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ec-33/yg-51/9844bd23912e56863a9bdaaaab5b6047.webp",
+    "element": "water",
+    "weaponType": "Assault Rifle",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5082": {
+    "name": "Quiry",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/xr-66/bl-95/f6b8125300f3eceaec15efc6f38a5c5f.webp",
+    "element": "wind",
+    "weaponType": "Rocket Launcher",
+    "burstType": "3",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5092": {
+    "name": "Leona",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/xy-92/tr-65/fb475580a80d1c9dc933c02b4ef15383.webp",
+    "element": "water",
+    "weaponType": "Shot Gun",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5095": {
+    "name": "A2",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/tu-21/ed-46/46dcb94b737b63e1e4f498499d4ffcde.webp",
+    "element": "fire",
+    "weaponType": "Rocket Launcher",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
   "5096": {
     "name": "Claire",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1833
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/gj-13/yt-75/bb291ae8345ca912cf893d36e4698e85.webp",
+    "element": "electronic",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SR"
   },
-  "3017": {
-    "name": "Pascal",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1833
+  "5097": {
+    "name": "Anis: Sparkling Summer",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/qy-91/lb-38/aafd750fc87ae293aeb10569f02bf736.webp",
+    "element": "electronic",
+    "weaponType": "Shot Gun",
+    "burstType": "3",
+    "class": "Supporter",
+    "rarity": "SSR"
   },
-  "3016": {
-    "name": "Lily",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1824
+  "5099": {
+    "name": "Naga",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/fk-90/ke-00/aef6a2982f1b2da1ed28503a17b4c641.webp",
+    "element": "electronic",
+    "weaponType": "Shot Gun",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
   },
-  "1013": {
-    "name": "Soldier EG",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1748
+  "5100": {
+    "name": "Tia",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/tt-94/ab-05/0bfb9c588835f7803e7cbd35f44805f4.webp",
+    "element": "iron",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Defender",
+    "rarity": "SSR"
   },
-  "1023": {
-    "name": "iDoll Sun",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1746
+  "5101": {
+    "name": "Red Hood",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/hr-37/pg-46/ce2a308fb7df5a7634d458703734c85f.webp",
+    "element": "iron",
+    "weaponType": "Sniper Rifle",
+    "burstType": "p",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "1024": {
-    "name": "Product 23",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1743
+  "5102": {
+    "name": "Signal",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/tp-50/yc-84/46501ce3573bb3b4bf48a18aed75141c.webp",
+    "element": "fire",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "2",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "1017": {
-    "name": "iDoll Flower",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1741
+  "5106": {
+    "name": "Privaty: Unkind Maid",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/wv-22/ph-22/ddcf4c573c63d5cd750b3599068ab604.webp",
+    "element": "electronic",
+    "weaponType": "Shot Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "1016": {
-    "name": "Product 12",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1737
+  "5110": {
+    "name": "D: Killer Wife",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ig-61/fq-26/5020d38f1d8d7cfb995a0fa861a47b8c.webp",
+    "element": "fire",
+    "weaponType": "Sniper Rifle",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
   },
-  "1018": {
-    "name": "iDoll Ocean",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1735
+  "5112": {
+    "name": "Trony",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/gf-25/ub-35/145d515109db1fc5f58a588d08ce13e1.webp",
+    "element": "fire",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "1025": {
-    "name": "Soldier OW",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1735
+  "5113": {
+    "name": "Soda: Twinkling Bunny",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/cb-50/ar-95/b569e2b452e046be79f642764a4fc009.webp",
+    "element": "iron",
+    "weaponType": "Shot Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
   },
-  "1015": {
-    "name": "Product 08",
-    "imageUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "combat": 1734
+  "5115": {
+    "name": "Clay",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/an-10/mb-69/498bc80d5fbb7d010d497d71da0888d3.webp",
+    "element": "electronic",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5121": {
+    "name": "Quency: Escape Queen",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ta-42/df-03/74c0560f78d53e935bbe4c5e28b03f95.webp",
+    "element": "water",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5123": {
+    "name": "Rapunzel: Pure Grace",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/le-69/hx-47/5b2c391ac334e9ebcae454d3dab9256e.webp",
+    "element": "iron",
+    "weaponType": "Sniper Rifle",
+    "burstType": "1",
+    "class": "Defender",
+    "rarity": "SSR"
+  },
+  "5124": {
+    "name": "Cinderella",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/vy-37/nq-87/17602f0ce49d38a4a53823023b072d6c.webp",
+    "element": "electronic",
+    "weaponType": "Rocket Launcher",
+    "burstType": "3",
+    "class": "Defender",
+    "rarity": "SSR"
+  },
+  "5125": {
+    "name": "Grave",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/pp-80/yr-25/e1c012a6cb0024dce39a43446824b7cf.webp",
+    "element": "fire",
+    "weaponType": "Assault Rifle",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5126": {
+    "name": "Flora",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ka-05/gd-54/8e930ecb943c25feb20ee1598350edf4.webp",
+    "element": "electronic",
+    "weaponType": "Machine Gun",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5130": {
+    "name": "Mast: Romantic Maid",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/gq-23/zc-77/fda1b87ec4fdb9e34135e9be99293216.webp",
+    "element": "water",
+    "weaponType": "Machine Gun",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5131": {
+    "name": "Anchor: Innocent Maid",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/xp-58/ej-05/b134044273e168242de939b80f6cded3.webp",
+    "element": "water",
+    "weaponType": "Rocket Launcher",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5134": {
+    "name": "Trina",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/pg-33/rn-28/4197d6ea767356525e3b75331dc5c21e.webp",
+    "element": "electronic",
+    "weaponType": "Rocket Launcher",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5135": {
+    "name": "Bready",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/bh-04/gl-44/daf7038890811d43758645134a83241d.webp",
+    "element": "water",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5138": {
+    "name": "Mihara: Bonding Chain",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/kc-55/xx-53/0f2752909663009ffa5e82c5863053fc.webp",
+    "element": "fire",
+    "weaponType": "Machine Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5141": {
+    "name": "Snow White: Innocent Days",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/oz-06/mt-15/9f2f4fb7ee8254836ccde51677fb0a0c.webp",
+    "element": "iron",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5144": {
+    "name": "Sora",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/wi-55/ve-29/b524321235dcceaccb01178d0134a855.webp",
+    "element": "wind",
+    "weaponType": "Rocket Launcher",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5145": {
+    "name": "Dorothy: Serendipity",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ql-25/kv-98/77625e5de4c3008ec3db11b9d3d509e3.webp",
+    "element": "water",
+    "weaponType": "Shot Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5146": {
+    "name": "Elegg: Boom and Shock",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/ll-53/fl-09/eaefe6a58f1c70621573cee22989302f.webp",
+    "element": "water",
+    "weaponType": "Machine Gun",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5147": {
+    "name": "Emma: Tactical Upgrade",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/oh-53/rn-14/d6ec0bb1f4becae143497bbaff00fe67.webp",
+    "element": "fire",
+    "weaponType": "Machine Gun",
+    "burstType": "1",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5148": {
+    "name": "Vesti: Tactical Upgrade",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/cq-57/hk-19/d9e647e72e107a7102dc2dadf4b6e044.webp",
+    "element": "fire",
+    "weaponType": "Rocket Launcher",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5149": {
+    "name": "Eunhwa: Tactical Upgrade",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/eh-67/ed-85/650655b79c844cb2e439506d1becea52.webp",
+    "element": "fire",
+    "weaponType": "Sniper Rifle",
+    "burstType": "2",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5150": {
+    "name": "Milk: Blooming Bunny",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/pa-76/rq-90/e4d447cdfab84aa03bb671c67db609e4.webp",
+    "element": "iron",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5151": {
+    "name": "Ade: Agent Bunny",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/cd-61/qo-01/45892e7be638237db3f25e297f4a646d.webp",
+    "element": "iron",
+    "weaponType": "Sniper Rifle",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5152": {
+    "name": "Ada",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/xm-55/vb-82/2cd0b5c2ec4434cbcb58902949accfc4.webp",
+    "element": "electronic",
+    "weaponType": "Rocket Launcher",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5153": {
+    "name": "Jill",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/xo-66/ky-87/83cb22a0cf2e7681396702a621f29bd4.webp",
+    "element": "electronic",
+    "weaponType": "Assault Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5155": {
+    "name": "Nayuta",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/xb-83/yy-27/fe88615112dc637fc1fa22415cf19d3a.webp",
+    "element": "wind",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
+  },
+  "5156": {
+    "name": "Liberalio",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/qw-70/qa-64/0f87bd202582cc8fc6d7388fc6de4cd4.webp",
+    "element": "wind",
+    "weaponType": "Sniper Rifle",
+    "burstType": "3",
+    "class": "Attacker",
+    "rarity": "SSR"
+  },
+  "5157": {
+    "name": "Chime",
+    "imageUrl": "https://sg-tools-cdn.blablalink.com/mr-72/wk-04/6857cb52fda8540c7c7d1911e6234f4d.webp",
+    "element": "iron",
+    "weaponType": "Sub Machine Gun",
+    "burstType": "2",
+    "class": "Supporter",
+    "rarity": "SSR"
   }
 }

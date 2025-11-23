@@ -34,6 +34,13 @@ export const CharacterCard = ({ nikke, onClick, isSelected }: CharacterCardProps
         <Badge colorScheme={nikke.burstType === 'I' ? 'green' : nikke.burstType === 'II' ? 'yellow' : 'red'} fontSize="xx-small">
           {nikke.burstType}
         </Badge>
+        {/* Icon row */}
+        <Box display="flex" justifyContent="center" mt={1}>
+          {nikke.elementIcon && <Image src={nikke.elementIcon} alt="element" boxSize="12px" mr={1} />}
+          {nikke.weaponIcon && <Image src={nikke.weaponIcon} alt="weapon" boxSize="12px" mr={1} />}
+          {nikke.burstIcon && <Image src={nikke.burstIcon} alt="burst" boxSize="12px" mr={1} />}
+          {nikke.classIcon && <Image src={nikke.classIcon} alt="class" boxSize="12px" />}
+        </Box>
       </VStack>
     </Box>
   );

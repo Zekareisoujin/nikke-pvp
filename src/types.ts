@@ -16,4 +16,8 @@ export interface Nikke {
   weaponType: WeaponType;
   imageUrl: string;
   rarity: 'SSR' | 'SR' | 'R' | 'TODO';
+  elementIcon?: string;
+  weaponIcon?: string;
+  burstIcon?: string;
+  classIcon?: string;
 }

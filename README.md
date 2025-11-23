@@ -6,6 +6,10 @@ A web application for building and analyzing teams for the game **Nikke: Goddess
 
 ### Implemented
 - **Real Character Data**: All 107 characters with real names and images from official game data
+- **Complete Character Metadata**: 
+    - Element, weapon type, burst type, class, and rarity extracted from official website
+    - Character cards display metadata icons (element, weapon, burst, class)
+    - Icon data separated into reusable `character_icons.json` file
 - **Team Deck**: A 5-slot area to assemble your team
 - **Character Pool**: Browse and select from all available Nikke characters
 - **Team Gen Rating**: Visual indicator showing the team's overall burst speed (e.g., "3 RL BURST")
@@ -14,12 +18,11 @@ A web application for building and analyzing teams for the game **Nikke: Goddess
     - **Quantum Cube Bonuses**: Supports 'No Cube', 'Level 1', 'Level 3', and 'Level 7' cubes with specific bonus values
     - **Bullet Counts**: Displays the range of bullets required for each tier
 - **Data Integration**:
-    - Real character metadata extracted from official website (names, images, name_codes)
+    - Real character metadata extracted from official website (names, images, name_codes, element, weapon, burst, class, rarity)
     - Burst generation data parsed from CSVs
     - Cube bonuses and bullet count data
 
 ### Planned
-- **Complete Character Metadata**: Populate missing fields (burst type, class, element, manufacturer, weapon type, rarity)
 - **Filtering & Sorting**: Filter characters by Burst Type, Element, Class, and Manufacturer
 - **Save & Share**: Save team compositions and share them via URL or image
 - **Drag & Drop**: Improved UI for organizing the team
@@ -48,12 +51,12 @@ A web application for building and analyzing teams for the game **Nikke: Goddess
 
 - `src/components/`: UI Components (`CharacterCard`, `TeamDeck`, `CharacterPool`, `BurstStats`)
 - `src/types.ts`: TypeScript definitions for Nikke data models
-- `src/data/character_metadata.json`: Real character metadata (107 characters)
-- `src/data.ts`: Character data source with metadata import
+- `src/data/character_metadata.json`: Character metadata (element, weapon, burst, class, rarity)
+- `src/data/character_icons.json`: Icon URLs for character metadata (element, weapon, burst, class)
+- `src/data.ts`: Character data source with metadata and icon merging
 - `src/burstGenData.ts`: Generated data file containing burst generation values
 - `src/App.tsx`: Main application logic and layout
-- `parse_csv.js`: Script to parse raw CSV data into `src/burstGenData.ts`
-- `generate_metadata.py`: Script to extract character metadata from HTML and API responses
+- `temp_scripts/`: Temporary scripts for data extraction and processing (not part of the web app)
 
 ## Data Sources
 

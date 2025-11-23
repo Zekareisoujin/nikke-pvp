@@ -1,4 +1,4 @@
-export type BurstType = 'I' | 'II' | 'III' | 'TODO';
+export type BurstType = '1' | '2' | '3' | 'TODO';
 export type ClassType = 'Attacker' | 'Defender' | 'Supporter' | 'TODO';
 export type Element = 'Fire' | 'Water' | 'Wind' | 'Iron' | 'Electric' | 'TODO';
 export type Manufacturer = 'Elysion' | 'Missilis' | 'Tetra' | 'Pilgrim' | 'Abnormal' | 'TODO';

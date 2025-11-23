@@ -26,6 +26,7 @@ A web application for building and analyzing teams for the game **Nikke: Goddess
 - **Filtering & Sorting**: Filter characters by Burst Type, Element, Class, and Manufacturer
 - **Save & Share**: Save team compositions and share them via URL or image
 - **Drag & Drop**: Improved UI for organizing the team
+- **Character Pool**: Support treasure units variants
 - **Persistence**: Save team to local storage
 - **Advanced Data**: Load Nikke stats from official API
 - **Multi-Team Support**: Configure multiple teams at once (3 for Special Arena, 5 for Champion's Arena)

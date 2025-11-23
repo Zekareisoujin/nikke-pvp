@@ -1,0 +1,868 @@
+{
+    "code": 0,
+    "code_type": 0,
+    "msg": "ok",
+    "data": {
+        "characters": [
+            {
+                "combat": 70760,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5148
+            },
+            {
+                "combat": 1824,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 3016
+            },
+            {
+                "combat": 36367,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 1020
+            },
+            {
+                "combat": 5404,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5141
+            },
+            {
+                "combat": 28655,
+                "core": 0,
+                "costume_id": 110026,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5153
+            },
+            {
+                "combat": 27515,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5147
+            },
+            {
+                "combat": 6363,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 5144
+            },
+            {
+                "combat": 39884,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 262,
+                "name_code": 5151
+            },
+            {
+                "combat": 30679,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5113
+            },
+            {
+                "combat": 33241,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5125
+            },
+            {
+                "combat": 38078,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5138
+            },
+            {
+                "combat": 5850,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5146
+            },
+            {
+                "combat": 36845,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5009
+            },
+            {
+                "combat": 38464,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5008
+            },
+            {
+                "combat": 5659,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5022
+            },
+            {
+                "combat": 5764,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 5082
+            },
+            {
+                "combat": 5736,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 1,
+                "name_code": 5029
+            },
+            {
+                "combat": 5404,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5015
+            },
+            {
+                "combat": 37275,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 1021
+            },
+            {
+                "combat": 29221,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 262,
+                "name_code": 5018
+            },
+            {
+                "combat": 5535,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 5001
+            },
+            {
+                "combat": 29679,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 3,
+                "lv": 262,
+                "name_code": 5075
+            },
+            {
+                "combat": 2251,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 1,
+                "name_code": 3006
+            },
+            {
+                "combat": 31204,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 262,
+                "name_code": 3005
+            },
+            {
+                "combat": 29489,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 262,
+                "name_code": 5021
+            },
+            {
+                "combat": 5860,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5036
+            },
+            {
+                "combat": 1748,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 1013
+            },
+            {
+                "combat": 27682,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5020
+            },
+            {
+                "combat": 28359,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5012
+            },
+            {
+                "combat": 69723,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 262,
+                "name_code": 5066
+            },
+            {
+                "combat": 5994,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 1012
+            },
+            {
+                "combat": 6284,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 1010
+            },
+            {
+                "combat": 2225,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 1,
+                "name_code": 3003
+            },
+            {
+                "combat": 76145,
+                "core": 0,
+                "costume_id": 30051,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5101
+            },
+            {
+                "combat": 27256,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5070
+            },
+            {
+                "combat": 38612,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 262,
+                "name_code": 5110
+            },
+            {
+                "combat": 22056,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 262,
+                "name_code": 3007
+            },
+            {
+                "combat": 2903,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 1,
+                "name_code": 3001
+            },
+            {
+                "combat": 39028,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 262,
+                "name_code": 5049
+            },
+            {
+                "combat": 77073,
+                "core": 0,
+                "costume_id": 30052,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5065
+            },
+            {
+                "combat": 23081,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 262,
+                "name_code": 3009
+            },
+            {
+                "combat": 28614,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 262,
+                "name_code": 5126
+            },
+            {
+                "combat": 69434,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5145
+            },
+            {
+                "combat": 28483,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5106
+            },
+            {
+                "combat": 1833,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5096
+            },
+            {
+                "combat": 37396,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 262,
+                "name_code": 5054
+            },
+            {
+                "combat": 1993,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 1,
+                "name_code": 3010
+            },
+            {
+                "combat": 70625,
+                "core": 1,
+                "costume_id": 0,
+                "grade": 3,
+                "lv": 262,
+                "name_code": 5099
+            },
+            {
+                "combat": 65847,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 3,
+                "lv": 262,
+                "name_code": 5077
+            },
+            {
+                "combat": 1735,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 1018
+            },
+            {
+                "combat": 1737,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 1016
+            },
+            {
+                "combat": 1743,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 1024
+            },
+            {
+                "combat": 1746,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 1023
+            },
+            {
+                "combat": 1735,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 1025
+            },
+            {
+                "combat": 21774,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 262,
+                "name_code": 3008
+            },
+            {
+                "combat": 5739,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 5112
+            },
+            {
+                "combat": 11254,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 3,
+                "lv": 1,
+                "name_code": 5024
+            },
+            {
+                "combat": 1734,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 1015
+            },
+            {
+                "combat": 5794,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 5014
+            },
+            {
+                "combat": 2242,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 1,
+                "name_code": 3002
+            },
+            {
+                "combat": 7379,
+                "core": 0,
+                "costume_id": 90006,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5095
+            },
+            {
+                "combat": 58125,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 3,
+                "lv": 262,
+                "name_code": 5004
+            },
+            {
+                "combat": 28696,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5034
+            },
+            {
+                "combat": 6570,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 5006
+            },
+            {
+                "combat": 27243,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5050
+            },
+            {
+                "combat": 27836,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5121
+            },
+            {
+                "combat": 5973,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5135
+            },
+            {
+                "combat": 19137,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 1014
+            },
+            {
+                "combat": 5629,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 1,
+                "name_code": 5039
+            },
+            {
+                "combat": 61783,
+                "core": 0,
+                "costume_id": 110024,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5152
+            },
+            {
+                "combat": 31925,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 262,
+                "name_code": 5092
+            },
+            {
+                "combat": 1833,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 3017
+            },
+            {
+                "combat": 36019,
+                "core": 1,
+                "costume_id": 30047,
+                "grade": 3,
+                "lv": 262,
+                "name_code": 5007
+            },
+            {
+                "combat": 65880,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5097
+            },
+            {
+                "combat": 1741,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 1017
+            },
+            {
+                "combat": 5783,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 5042
+            },
+            {
+                "combat": 32763,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5150
+            },
+            {
+                "combat": 33235,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5100
+            },
+            {
+                "combat": 5972,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5045
+            },
+            {
+                "combat": 5656,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5157
+            },
+            {
+                "combat": 5411,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5055
+            },
+            {
+                "combat": 27124,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5115
+            },
+            {
+                "combat": 5632,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5046
+            },
+            {
+                "combat": 72543,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 3,
+                "lv": 262,
+                "name_code": 5011
+            },
+            {
+                "combat": 69071,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5130
+            },
+            {
+                "combat": 5404,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5038
+            },
+            {
+                "combat": 5779,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 5013
+            },
+            {
+                "combat": 6166,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5033
+            },
+            {
+                "combat": 5429,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 1022
+            },
+            {
+                "combat": 5404,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5102
+            },
+            {
+                "combat": 6396,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5123
+            },
+            {
+                "combat": 5386,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5074
+            },
+            {
+                "combat": 5347,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5068
+            },
+            {
+                "combat": 5919,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5027
+            },
+            {
+                "combat": 73028,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 3,
+                "lv": 262,
+                "name_code": 5156
+            },
+            {
+                "combat": 5386,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5035
+            },
+            {
+                "combat": 5921,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5134
+            },
+            {
+                "combat": 7133,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5044
+            },
+            {
+                "combat": 32808,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 262,
+                "name_code": 5061
+            },
+            {
+                "combat": 31630,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5081
+            },
+            {
+                "combat": 76175,
+                "core": 0,
+                "costume_id": 120003,
+                "grade": 3,
+                "lv": 262,
+                "name_code": 5155
+            },
+            {
+                "combat": 6446,
+                "core": 0,
+                "costume_id": 30049,
+                "grade": 2,
+                "lv": 1,
+                "name_code": 5149
+            },
+            {
+                "combat": 75292,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 262,
+                "name_code": 5124
+            },
+            {
+                "combat": 5375,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 0,
+                "lv": 1,
+                "name_code": 5017
+            },
+            {
+                "combat": 71012,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 3,
+                "lv": 262,
+                "name_code": 5131
+            },
+            {
+                "combat": 38417,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 2,
+                "lv": 262,
+                "name_code": 3004
+            },
+            {
+                "combat": 6107,
+                "core": 0,
+                "costume_id": 0,
+                "grade": 1,
+                "lv": 1,
+                "name_code": 5023
+            }
+        ],
+        "is_banned": false,
+        "trace_id": "73a13be1-8251-4ae4-b3b8-5628f07b929d"
+    },
+    "seq": "73a13be1-8251-4ae4-b3b8-5628f07b929d"
+}

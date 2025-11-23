@@ -2,10 +2,10 @@ import fs from 'fs';
 import path from 'path';
 
 const files = {
-  burstGen: 'Nikke PVP Burst Generation Calculator - Burst Gen.csv',
-  cubeBurstGen: 'Copy of Nikke PVP Burst Generation Calculator - Cube Burst Gen.csv',
-  feedChart1: 'Copy of Nikke PVP Burst Generation Calculator - Feed Chart 1 target.csv',
-  feedChart2: 'Copy of Nikke PVP Burst Generation Calculator - Feed Chart 2 Target.csv',
+  burstGen: 'burst_gen.csv',
+  cubeBurstGen: 'cube_burst_gen.csv',
+  feedChart1: 'feed_chart_1.csv',
+  feedChart2: 'feed_chart_2.csv',
 };
 
 const parseCsv = (filename) => {
@@ -38,8 +38,22 @@ const cubeBurstGenData = parseCsv(files.cubeBurstGen);
 const feedChart1Data = parseCsv(files.feedChart1);
 const feedChart2Data = parseCsv(files.feedChart2);
 
+// Generate allNikkes list from burstGenData keys
+const allNikkes = Object.keys(burstGenData).map((name, index) => ({
+  id: String(index + 1),
+  name: name,
+  burstType: 'I', // MOCKED
+  classType: 'Attacker', // MOCKED
+  element: 'Fire', // MOCKED
+  manufacturer: 'Elysion', // MOCKED
+  weaponType: 'AR', // MOCKED
+  imageUrl: 'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9b/Rapi_icon.png', // MOCKED
+  rarity: 'SSR', // MOCKED
+}));
+
 console.log(`export const burstGenData: Record<string, { [key: string]: number }> = ${JSON.stringify(burstGenData, null, 2)};`);
 console.log(`export const cubeBurstGenData: Record<string, { [key: string]: number }> = ${JSON.stringify(cubeBurstGenData, null, 2)};`);
 console.log(`export const feedChart1Data: Record<string, { [key: string]: number }> = ${JSON.stringify(feedChart1Data, null, 2)};`);
 console.log(`export const feedChart2Data: Record<string, { [key: string]: number }> = ${JSON.stringify(feedChart2Data, null, 2)};`);
+console.log(`export const allNikkes = ${JSON.stringify(allNikkes, null, 2)};`);
 

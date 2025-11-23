@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Box, Container, Heading, ChakraProvider, extendTheme } from '@chakra-ui/react';
 import type { Nikke } from './types';
-import { mockNikkes } from './data';
+import { allNikkes } from './data';
 import { TeamDeck } from './components/TeamDeck';
 import { CharacterPool } from './components/CharacterPool';
 import { BurstStats } from './components/BurstStats';
@@ -43,7 +43,7 @@ function App() {
           <BurstStats selectedTeam={selectedTeam} />
 
           <CharacterPool 
-            nikkes={mockNikkes} 
+            nikkes={allNikkes} 
             onSelect={handleSelect} 
             selectedIds={selectedTeam.map(n => n.id)} 
           />

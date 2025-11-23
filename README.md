@@ -5,20 +5,24 @@ A web application for building and analyzing teams for the game **Nikke: Goddess
 ## Features
 
 ### Implemented
-- **Team Deck**: A 5-slot area to assemble your team.
-- **Character Pool**: A list of available Nikke characters to choose from.
+- **Real Character Data**: All 107 characters with real names and images from official game data
+- **Team Deck**: A 5-slot area to assemble your team
+- **Character Pool**: Browse and select from all available Nikke characters
+- **Team Gen Rating**: Visual indicator showing the team's overall burst speed (e.g., "3 RL BURST")
 - **Burst Generation Calculator**:
-    - Calculates burst generation for different tiers (2RL, 2.5RL, 3RL, etc.).
-    - **Quantum Cube Bonuses**: Supports 'No Cube', 'Level 1', 'Level 3', and 'Level 7' cubes with specific bonus values.
-    - **Bullet Counts**: Displays the range of bullets required for each tier.
+    - Calculates burst generation for different tiers (2RL, 2.5RL, 3RL, etc.)
+    - **Quantum Cube Bonuses**: Supports 'No Cube', 'Level 1', 'Level 3', and 'Level 7' cubes with specific bonus values
+    - **Bullet Counts**: Displays the range of bullets required for each tier
 - **Data Integration**:
-    - Uses real game data parsed from CSVs for Burst Gen, Cube Bonuses, and Bullet Counts.
+    - Real character metadata extracted from official website (names, images, name_codes)
+    - Burst generation data parsed from CSVs
+    - Cube bonuses and bullet count data
 
 ### Planned
-- **Team Gen Rating**: Visual indicator for the team's overall burst speed (e.g., "3 RL BURST").
-- **Filtering & Sorting**: Filter characters by Burst Type, Element, Class, and Manufacturer.
-- **Save & Share**: Save team compositions and share them via URL or image.
-- **Drag & Drop**: Improved UI for organizing the team.
+- **Complete Character Metadata**: Populate missing fields (burst type, class, element, manufacturer, weapon type, rarity)
+- **Filtering & Sorting**: Filter characters by Burst Type, Element, Class, and Manufacturer
+- **Save & Share**: Save team compositions and share them via URL or image
+- **Drag & Drop**: Improved UI for organizing the team
 
 ## Tech Stack
 
@@ -42,9 +46,19 @@ A web application for building and analyzing teams for the game **Nikke: Goddess
 
 ## Project Structure
 
-- `src/components`: UI Components (`CharacterCard`, `TeamDeck`, `CharacterPool`, `BurstStats`).
-- `src/types.ts`: TypeScript definitions for Nikke data models.
-- `src/burstGenData.ts`: Generated data file containing burst generation values.
-- `src/data.ts`: Mock data source for character list.
-- `src/App.tsx`: Main application logic and layout.
-- `parse_csv.js`: Script to parse raw CSV data into `src/burstGenData.ts`.
+- `src/components/`: UI Components (`CharacterCard`, `TeamDeck`, `CharacterPool`, `BurstStats`)
+- `src/types.ts`: TypeScript definitions for Nikke data models
+- `src/data/character_metadata.json`: Real character metadata (107 characters)
+- `src/data.ts`: Character data source with metadata import
+- `src/burstGenData.ts`: Generated data file containing burst generation values
+- `src/App.tsx`: Main application logic and layout
+- `parse_csv.js`: Script to parse raw CSV data into `src/burstGenData.ts`
+- `generate_metadata.py`: Script to extract character metadata from HTML and API responses
+
+## Data Sources
+
+Character metadata is extracted from:
+- `characterList.html`: HTML data from official website containing character names and images
+- `characterListResponse`: API response containing `name_code` mappings and combat power stats
+
+The metadata generation script (`generate_metadata.py`) matches characters by sorting both sources by combat power (descending order).

@@ -2,10 +2,11 @@
   "name": "nikke-pvp",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Zekareisoujin.github.io/nikke-pvp",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "node scripts/generate-version.js && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "format": "prettier --write .",

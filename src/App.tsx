@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import { Box, Container, Heading, ChakraProvider, extendTheme } from '@chakra-ui/react';
+import { Box, Container, Heading, ChakraProvider, extendTheme, Alert, AlertIcon, AlertTitle, AlertDescription, Button } from '@chakra-ui/react';
 import type { Nikke } from './types';
 import { allNikkes } from './data';
 import { TeamDeck } from './components/TeamDeck';
 import { CharacterPool } from './components/CharacterPool';
 import { BurstStats } from './components/BurstStats';
+import { useAutoUpdate } from './hooks/useAutoUpdate';
 
 const theme = extendTheme({
   config: {
@@ -15,6 +16,7 @@ const theme = extendTheme({
 
 function App() {
   const [selectedTeam, setSelectedTeam] = useState<Nikke[]>([]);
+  const { isUpdateAvailable, reload } = useAutoUpdate();
 
   const handleSelect = (nikke: Nikke) => {
     if (selectedTeam.find((n) => n.id === nikke.id)) {
@@ -36,6 +38,20 @@ function App() {
     <ChakraProvider theme={theme}>
       <Box minH="100vh" bg="gray.900" py={8}>
         <Container maxW="container.xl">
+          {isUpdateAvailable && (
+            <Alert status="info" mb={4} borderRadius="md">
+              <AlertIcon />
+              <Box flex="1">
+                <AlertTitle>New version available!</AlertTitle>
+                <AlertDescription display="block">
+                  A new version of the application is available.
+                </AlertDescription>
+              </Box>
+              <Button colorScheme="blue" size="sm" onClick={reload} ml={4}>
+                Refresh
+              </Button>
+            </Alert>
+          )}
           <Heading color="white" mb={8} textAlign="center">Nikke Team Builder</Heading>
           
           <TeamDeck selectedTeam={selectedTeam} onRemove={handleRemove} />

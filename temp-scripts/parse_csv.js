@@ -9,7 +9,7 @@ const files = {
 };
 
 const parseCsv = (filename) => {
-  const csvPath = path.resolve('/home/zeka/Workspace/nikke-pvp', filename);
+  const csvPath = path.resolve('/home/zeka/Workspace/nikke-pvp/csv-data', filename);
   const csvContent = fs.readFileSync(csvPath, 'utf-8');
   const lines = csvContent.trim().split('\n');
   const data = {};

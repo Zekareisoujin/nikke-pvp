@@ -1,20 +1,21 @@
 # Nikke PvP Team Builder
 
-A web application for building and analyzing teams for the game **Nikke: Goddess of Victory**. This tool allows users to select characters, form a team of 5, and (in the future) calculate team effectiveness and stats.
+A web application for building and analyzing teams for the game **Nikke: Goddess of Victory**. This tool allows users to select characters, form a team of 5, and calculate detailed burst generation stats.
 
 ## Features
 
-### Current
+### Implemented
 - **Team Deck**: A 5-slot area to assemble your team.
 - **Character Pool**: A list of available Nikke characters to choose from.
-- **Selection Logic**: 
-    - Click a character in the pool to add them to the first available slot.
-    - Click a selected character (in the pool or deck) to remove them.
-    - Prevents adding more than 5 characters.
-- **Mock Data**: Currently uses a set of mock characters for demonstration.
+- **Burst Generation Calculator**:
+    - Calculates burst generation for different tiers (2RL, 2.5RL, 3RL, etc.).
+    - **Quantum Cube Bonuses**: Supports 'No Cube', 'Level 1', 'Level 3', and 'Level 7' cubes with specific bonus values.
+    - **Bullet Counts**: Displays the range of bullets required for each tier.
+- **Data Integration**:
+    - Uses real game data parsed from CSVs for Burst Gen, Cube Bonuses, and Bullet Counts.
 
 ### Planned
-- **Stats Calculation**: Calculate overall team power, burst chain compatibility, and elemental synergies.
+- **Team Gen Rating**: Visual indicator for the team's overall burst speed (e.g., "3 RL BURST").
 - **Filtering & Sorting**: Filter characters by Burst Type, Element, Class, and Manufacturer.
 - **Save & Share**: Save team compositions and share them via URL or image.
 - **Drag & Drop**: Improved UI for organizing the team.
@@ -41,7 +42,9 @@ A web application for building and analyzing teams for the game **Nikke: Goddess
 
 ## Project Structure
 
-- `src/components`: UI Components (`CharacterCard`, `TeamDeck`, `CharacterPool`).
+- `src/components`: UI Components (`CharacterCard`, `TeamDeck`, `CharacterPool`, `BurstStats`).
 - `src/types.ts`: TypeScript definitions for Nikke data models.
-- `src/data.ts`: Mock data source.
+- `src/burstGenData.ts`: Generated data file containing burst generation values.
+- `src/data.ts`: Mock data source for character list.
 - `src/App.tsx`: Main application logic and layout.
+- `parse_csv.js`: Script to parse raw CSV data into `src/burstGenData.ts`.

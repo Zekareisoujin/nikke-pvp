@@ -4,6 +4,7 @@ import type { Nikke } from './types';
 import { mockNikkes } from './data';
 import { TeamDeck } from './components/TeamDeck';
 import { CharacterPool } from './components/CharacterPool';
+import { BurstStats } from './components/BurstStats';
 
 const theme = extendTheme({
   config: {
@@ -39,6 +40,8 @@ function App() {
           
           <TeamDeck selectedTeam={selectedTeam} onRemove={handleRemove} />
           
+          <BurstStats selectedTeam={selectedTeam} />
+
           <CharacterPool 
             nikkes={mockNikkes} 
             onSelect={handleSelect} 

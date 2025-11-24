@@ -1,5 +1,4 @@
-import { Box, HStack, VStack, Text, IconButton } from '@chakra-ui/react';
-import { CloseIcon } from '@chakra-ui/icons';
+import { Box, HStack, VStack, Text } from '@chakra-ui/react';
 import type { Nikke } from '../types';
 import { CharacterCard } from './CharacterCard';
 import { burstGenData } from '../burstGenData';
@@ -107,14 +106,14 @@ export const TeamDeck = ({ selectedTeam, onRemove }: TeamDeckProps) => {
       </HStack>
 
       {/* Team Slots */}
-      <HStack spacing={4} justify="center" h="160px">
+      <HStack spacing={4} justify="center" h="120px">
         {slots.map((_, index) => {
           const nikke = selectedTeam[index];
           return (
             <Box
               key={index}
               w="100px"
-              h="140px"
+              h="100px"
               border="2px dashed"
               borderColor="gray.600"
               borderRadius="md"
@@ -124,20 +123,27 @@ export const TeamDeck = ({ selectedTeam, onRemove }: TeamDeckProps) => {
               position="relative"
             >
               {nikke ? (
-                <>
-                  <CharacterCard nikke={nikke} onClick={() => {}} />
-                  <IconButton
-                    aria-label="Remove character"
-                    icon={<CloseIcon />}
-                    size="xs"
-                    colorScheme="red"
+                <Box 
+                  w="100px" 
+                  h="100px" 
+                  overflow="hidden" 
+                  borderRadius="md"
+                  cursor="pointer"
+                  onClick={() => onRemove(nikke)}
+                  transition="all 0.2s"
+                  _hover={{ opacity: 0.8 }}
+                  position="relative"
+                >
+                  <Box
                     position="absolute"
-                    top="-8px"
-                    right="-8px"
-                    onClick={() => onRemove(nikke)}
-                    isRound
-                  />
-                </>
+                    top="50%"
+                    left="50%"
+                    transform="translate(-50%, -35%) scale(0.833)"
+                    transformOrigin="center"
+                  >
+                    <CharacterCard nikke={nikke} onClick={() => {}} hideIcons />
+                  </Box>
+                </Box>
               ) : (
                 <Text color="gray.500" fontSize="sm">Slot {index + 1}</Text>
               )}

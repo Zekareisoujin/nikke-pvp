@@ -1,4 +1,5 @@
-import { Box, Table, Thead, Tbody, Tr, Th, Td, Text, useColorModeValue, Select } from '@chakra-ui/react';
+import { Box, Table, Thead, Tbody, Tr, Th, Td, Text, useColorModeValue, Select, Collapse, Button, HStack } from '@chakra-ui/react';
+import { ChevronDownIcon, ChevronUpIcon } from '@chakra-ui/icons';
 import { useState } from 'react';
 import type { Nikke, CubeLevel } from '../types';
 import { burstGenData, cubeBurstGenData, feedChart1Data, feedChart2Data } from '../burstGenData';
@@ -17,6 +18,7 @@ const CUBE_VALUES: Record<CubeLevel, number> = {
 export const BurstStats = ({ selectedTeam }: BurstStatsProps) => {
   const bg = useColorModeValue('white', 'gray.800');
   const [cubeLevels, setCubeLevels] = useState<CubeLevel[]>(Array(5).fill('No'));
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const handleCubeChange = (index: number, value: CubeLevel) => {
     const newLevels = [...cubeLevels];
@@ -58,7 +60,19 @@ export const BurstStats = ({ selectedTeam }: BurstStatsProps) => {
   return (
     <Box w="100%" borderRadius="lg" overflow="hidden" mb={4} boxShadow="lg">
       <Box p={4} bg={bg}>
-        <Text fontSize="lg" fontWeight="bold" mb={4}>Burst Generation Stats</Text>
+        <HStack justify="space-between" mb={isExpanded ? 4 : 0}>
+          <Text fontSize="lg" fontWeight="bold">Burst Generation Stats</Text>
+          <Button
+            size="sm"
+            variant="ghost"
+            onClick={() => setIsExpanded(!isExpanded)}
+            rightIcon={isExpanded ? <ChevronUpIcon /> : <ChevronDownIcon />}
+          >
+            {isExpanded ? 'Collapse' : 'Expand'}
+          </Button>
+        </HStack>
+        
+        <Collapse in={isExpanded} animateOpacity>
         
         {/* Cube Selection Table */}
         <Table variant="simple" size="sm" mb={6}>
@@ -91,6 +105,7 @@ export const BurstStats = ({ selectedTeam }: BurstStatsProps) => {
             ))}
           </Tbody>
         </Table>
+        </Collapse>
       </Box>
     </Box>
   );

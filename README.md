@@ -21,16 +21,29 @@ A web application for building and analyzing teams for the game **Nikke: Goddess
     - Real character metadata extracted from official website (names, images, name_codes, element, weapon, burst, class, rarity)
     - Burst generation data parsed from CSVs
     - Cube bonuses and bullet count data
+- **Search & Filtering**:
+    - Search characters by name
+    - Filter by Element, Weapon Type, Class, Burst Type, and Rarity
+    - Optimized rendering with CSS-based filtering
+- **Team Persistence**: Team selections automatically save to localStorage
+- **UI Enhancements**:
+    - Burst generation display in TeamDeck (tier-by-tier percentages with color coding)
+    - Expandable/collapsible Burst Stats section
+    - Compact square character cards in TeamDeck
+    - Click to remove characters from team
+- **GitHub Pages Deployment**: Automated deployment via GitHub Actions with auto-update detection
 
 ### Planned
-- **Filtering & Sorting**: Filter characters by Burst Type, Element, Class, and Manufacturer
-- **Save & Share**: Save team compositions and share them via URL or image
+- **Character Data Import**: Manual import feature for real player character stats from official API
+- **Save & Share**: Share team compositions via URL or image
 - **Drag & Drop**: Improved UI for organizing the team
 - **Character Pool**: Support treasure units variants
-- **Persistence**: Save team to local storage
-- **Advanced Data**: Load Nikke stats from official API
+- **Advanced Data**: Automatic integration with official API (pending CORS solution)
 - **Multi-Team Support**: Configure multiple teams at once (3 for Special Arena, 5 for Champion's Arena)
 - **Simulation**: Pit 2 teams head-to-head
+
+### API Investigation
+See [API_INVESTIGATION.md](./API_INVESTIGATION.md) for detailed findings on integrating with the official Nikke API.
 
 ## Tech Stack
 

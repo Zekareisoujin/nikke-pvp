@@ -1,0 +1,1503 @@
+{
+    "code": 0,
+    "code_type": 0,
+    "msg": "ok",
+    "data": {
+        "character_details": [
+            {
+                "arena_combat": 58125,
+                "arena_harmony_cube_lv": 0,
+                "arena_harmony_cube_tid": 0,
+                "arm_equip_corporation_type": 0,
+                "arm_equip_lv": 0,
+                "arm_equip_option1_id": 7000511,
+                "arm_equip_option2_id": 7000711,
+                "arm_equip_option3_id": 0,
+                "arm_equip_tid": 3311001,
+                "arm_equip_tier": 10,
+                "attractive_lv": 10,
+                "combat": 61371,
+                "core": 0,
+                "costume_tid": 0,
+                "favorite_item_lv": 5,
+                "favorite_item_tid": 100602,
+                "grade": 3,
+                "harmony_cube_lv": 8,
+                "harmony_cube_tid": 1000303,
+                "head_equip_corporation_type": 0,
+                "head_equip_lv": 0,
+                "head_equip_option1_id": 7001006,
+                "head_equip_option2_id": 7000704,
+                "head_equip_option3_id": 0,
+                "head_equip_tid": 3111001,
+                "head_equip_tier": 10,
+                "leg_equip_corporation_type": 0,
+                "leg_equip_lv": 0,
+                "leg_equip_option1_id": 7000508,
+                "leg_equip_option2_id": 0,
+                "leg_equip_option3_id": 7001007,
+                "leg_equip_tid": 3411001,
+                "leg_equip_tier": 10,
+                "lv": 1,
+                "name_code": 5004,
+                "skill1_lv": 10,
+                "skill2_lv": 4,
+                "torso_equip_corporation_type": 0,
+                "torso_equip_lv": 0,
+                "torso_equip_option1_id": 7000711,
+                "torso_equip_option2_id": 0,
+                "torso_equip_option3_id": 0,
+                "torso_equip_tid": 3211001,
+                "torso_equip_tier": 10,
+                "ulti_skill_lv": 10
+            },
+            {
+                "arena_combat": 39028,
+                "arena_harmony_cube_lv": 0,
+                "arena_harmony_cube_tid": 0,
+                "arm_equip_corporation_type": 3,
+                "arm_equip_lv": 3,
+                "arm_equip_option1_id": 0,
+                "arm_equip_option2_id": 0,
+                "arm_equip_option3_id": 0,
+                "arm_equip_tid": 3330901,
+                "arm_equip_tier": 9,
+                "attractive_lv": 10,
+                "combat": 41796,
+                "core": 0,
+                "costume_tid": 0,
+                "favorite_item_lv": 15,
+                "favorite_item_tid": 100601,
+                "grade": 1,
+                "harmony_cube_lv": 8,
+                "harmony_cube_tid": 1000303,
+                "head_equip_corporation_type": 3,
+                "head_equip_lv": 3,
+                "head_equip_option1_id": 0,
+                "head_equip_option2_id": 0,
+                "head_equip_option3_id": 0,
+                "head_equip_tid": 3130901,
+                "head_equip_tier": 9,
+                "leg_equip_corporation_type": 3,
+                "leg_equip_lv": 3,
+                "leg_equip_option1_id": 0,
+                "leg_equip_option2_id": 0,
+                "leg_equip_option3_id": 0,
+                "leg_equip_tid": 3430901,
+                "leg_equip_tier": 9,
+                "lv": 1,
+                "name_code": 5049,
+                "skill1_lv": 7,
+                "skill2_lv": 4,
+                "torso_equip_corporation_type": 3,
+                "torso_equip_lv": 3,
+                "torso_equip_option1_id": 0,
+                "torso_equip_option2_id": 0,
+                "torso_equip_option3_id": 0,
+                "torso_equip_tid": 3230901,
+                "torso_equip_tier": 9,
+                "ulti_skill_lv": 4
+            },
+            {
+                "arena_combat": 64190,
+                "arena_harmony_cube_lv": 4,
+                "arena_harmony_cube_tid": 1000305,
+                "arm_equip_corporation_type": 0,
+                "arm_equip_lv": 0,
+                "arm_equip_option1_id": 7000901,
+                "arm_equip_option2_id": 7000509,
+                "arm_equip_option3_id": 0,
+                "arm_equip_tid": 3311001,
+                "arm_equip_tier": 10,
+                "attractive_lv": 15,
+                "combat": 65847,
+                "core": 0,
+                "costume_tid": 0,
+                "favorite_item_lv": 15,
+                "favorite_item_tid": 100601,
+                "grade": 3,
+                "harmony_cube_lv": 7,
+                "harmony_cube_tid": 1000304,
+                "head_equip_corporation_type": 0,
+                "head_equip_lv": 0,
+                "head_equip_option1_id": 7001309,
+                "head_equip_option2_id": 7000510,
+                "head_equip_option3_id": 7000701,
+                "head_equip_tid": 3111001,
+                "head_equip_tier": 10,
+                "leg_equip_corporation_type": 0,
+                "leg_equip_lv": 0,
+                "leg_equip_option1_id": 7001311,
+                "leg_equip_option2_id": 7000611,
+                "leg_equip_option3_id": 7000711,
+                "leg_equip_tid": 3411001,
+                "leg_equip_tier": 10,
+                "lv": 200,
+                "name_code": 5077,
+                "skill1_lv": 7,
+                "skill2_lv": 10,
+                "torso_equip_corporation_type": 0,
+                "torso_equip_lv": 0,
+                "torso_equip_option1_id": 7000503,
+                "torso_equip_option2_id": 7000815,
+                "torso_equip_option3_id": 0,
+                "torso_equip_tid": 3211001,
+                "torso_equip_tier": 10,
+                "ulti_skill_lv": 10
+            },
+            {
+                "arena_combat": 38612,
+                "arena_harmony_cube_lv": 0,
+                "arena_harmony_cube_tid": 0,
+                "arm_equip_corporation_type": 1,
+                "arm_equip_lv": 2,
+                "arm_equip_option1_id": 0,
+                "arm_equip_option2_id": 0,
+                "arm_equip_option3_id": 0,
+                "arm_equip_tid": 3330901,
+                "arm_equip_tier": 9,
+                "attractive_lv": 10,
+                "combat": 38612,
+                "core": 0,
+                "costume_tid": 0,
+                "favorite_item_lv": 15,
+                "favorite_item_tid": 100601,
+                "grade": 1,
+                "harmony_cube_lv": 0,
+                "harmony_cube_tid": 0,
+                "head_equip_corporation_type": 1,
+                "head_equip_lv": 2,
+                "head_equip_option1_id": 0,
+                "head_equip_option2_id": 0,
+                "head_equip_option3_id": 0,
+                "head_equip_tid": 3130901,
+                "head_equip_tier": 9,
+                "leg_equip_corporation_type": 1,
+                "leg_equip_lv": 2,
+                "leg_equip_option1_id": 0,
+                "leg_equip_option2_id": 0,
+                "leg_equip_option3_id": 0,
+                "leg_equip_tid": 3430901,
+                "leg_equip_tier": 9,
+                "lv": 1,
+                "name_code": 5110,
+                "skill1_lv": 4,
+                "skill2_lv": 7,
+                "torso_equip_corporation_type": 1,
+                "torso_equip_lv": 2,
+                "torso_equip_option1_id": 0,
+                "torso_equip_option2_id": 0,
+                "torso_equip_option3_id": 0,
+                "torso_equip_tid": 3230901,
+                "torso_equip_tier": 9,
+                "ulti_skill_lv": 4
+            },
+            {
+                "arena_combat": 69434,
+                "arena_harmony_cube_lv": 0,
+                "arena_harmony_cube_tid": 0,
+                "arm_equip_corporation_type": 0,
+                "arm_equip_lv": 0,
+                "arm_equip_option1_id": 7001206,
+                "arm_equip_option2_id": 7000509,
+                "arm_equip_option3_id": 7000806,
+                "arm_equip_tid": 3311001,
+                "arm_equip_tier": 10,
+                "attractive_lv": 10,
+                "combat": 69434,
+                "core": 0,
+                "costume_tid": 0,
+                "favorite_item_lv": 15,
+                "favorite_item_tid": 100402,
+                "grade": 0,
+                "harmony_cube_lv": 0,
+                "harmony_cube_tid": 0,
+                "head_equip_corporation_type": 0,
+                "head_equip_lv": 0,
+                "head_equip_option1_id": 7000607,
+                "head_equip_option2_id": 7000514,
+                "head_equip_option3_id": 0,
+                "head_equip_tid": 3111001,
+                "head_equip_tier": 10,
+                "leg_equip_corporation_type": 0,
+                "leg_equip_lv": 0,
+                "leg_equip_option1_id": 7000705,
+                "leg_equip_option2_id": 7000909,
+                "leg_equip_option3_id": 7000510,
+                "leg_equip_tid": 3411001,
+                "leg_equip_tier": 10,
+                "lv": 1,
+                "name_code": 5145,
+                "skill1_lv": 7,
+                "skill2_lv": 10,
+                "torso_equip_corporation_type": 0,
+                "torso_equip_lv": 0,
+                "torso_equip_option1_id": 7001110,
+                "torso_equip_option2_id": 7000906,
+                "torso_equip_option3_id": 7000508,
+                "torso_equip_tid": 3211001,
+                "torso_equip_tier": 10,
+                "ulti_skill_lv": 7
+            },
+            {
+                "arena_combat": 65880,
+                "arena_harmony_cube_lv": 0,
+                "arena_harmony_cube_tid": 0,
+                "arm_equip_corporation_type": 0,
+                "arm_equip_lv": 0,
+                "arm_equip_option1_id": 7000611,
+                "arm_equip_option2_id": 7000511,
+                "arm_equip_option3_id": 7000911,
+                "arm_equip_tid": 3331001,
+                "arm_equip_tier": 10,
+                "attractive_lv": 10,
+                "combat": 69296,
+                "core": 0,
+                "costume_tid": 0,
+                "favorite_item_lv": 10,
+                "favorite_item_tid": 100402,
+                "grade": 0,
+                "harmony_cube_lv": 8,
+                "harmony_cube_tid": 1000303,
+                "head_equip_corporation_type": 0,
+                "head_equip_lv": 0,
+                "head_equip_option1_id": 7001206,
+                "head_equip_option2_id": 7000503,
+                "head_equip_option3_id": 0,
+                "head_equip_tid": 3131001,
+                "head_equip_tier": 10,
+                "leg_equip_corporation_type": 0,
+                "leg_equip_lv": 0,
+                "leg_equip_option1_id": 7001111,
+                "leg_equip_option2_id": 7000511,
+                "leg_equip_option3_id": 7001011,
+                "leg_equip_tid": 3431001,
+                "leg_equip_tier": 10,
+                "lv": 1,
+                "name_code": 5097,
+                "skill1_lv": 7,
+                "skill2_lv": 7,
+                "torso_equip_corporation_type": 0,
+                "torso_equip_lv": 0,
+                "torso_equip_option1_id": 7001110,
+                "torso_equip_option2_id": 0,
+                "torso_equip_option3_id": 7000611,
+                "torso_equip_tid": 3231001,
+                "torso_equip_tier": 10,
+                "ulti_skill_lv": 9
+            },
+            {
+                "arena_combat": 39884,
+                "arena_harmony_cube_lv": 0,
+                "arena_harmony_cube_tid": 0,
+                "arm_equip_corporation_type": 3,
+                "arm_equip_lv": 2,
+                "arm_equip_option1_id": 0,
+                "arm_equip_option2_id": 0,
+                "arm_equip_option3_id": 0,
+                "arm_equip_tid": 3330901,
+                "arm_equip_tier": 9,
+                "attractive_lv": 15,
+                "combat": 42675,
+                "core": 0,
+                "costume_tid": 0,
+                "favorite_item_lv": 15,
+                "favorite_item_tid": 100601,
+                "grade": 1,
+                "harmony_cube_lv": 8,
+                "harmony_cube_tid": 1000303,
+                "head_equip_corporation_type": 3,
+                "head_equip_lv": 3,
+                "head_equip_option1_id": 0,
+                "head_equip_option2_id": 0,
+                "head_equip_option3_id": 0,
+                "head_equip_tid": 3130901,
+                "head_equip_tier": 9,
+                "leg_equip_corporation_type": 3,
+                "leg_equip_lv": 3,
+                "leg_equip_option1_id": 0,
+                "leg_equip_option2_id": 0,
+                "leg_equip_option3_id": 0,
+                "leg_equip_tid": 3430901,
+                "leg_equip_tier": 9,
+                "lv": 1,
+                "name_code": 5151,
+                "skill1_lv": 4,
+                "skill2_lv": 4,
+                "torso_equip_corporation_type": 3,
+                "torso_equip_lv": 3,
+                "torso_equip_option1_id": 0,
+                "torso_equip_option2_id": 0,
+                "torso_equip_option3_id": 0,
+                "torso_equip_tid": 3230901,
+                "torso_equip_tier": 9,
+                "ulti_skill_lv": 7
+            },
+            {
+                "arena_combat": 39588,
+                "arena_harmony_cube_lv": 3,
+                "arena_harmony_cube_tid": 1000308,
+                "arm_equip_corporation_type": 0,
+                "arm_equip_lv": 0,
+                "arm_equip_option1_id": 0,
+                "arm_equip_option2_id": 0,
+                "arm_equip_option3_id": 0,
+                "arm_equip_tid": 3320901,
+                "arm_equip_tier": 9,
+                "attractive_lv": 10,
+                "combat": 38464,
+                "core": 0,
+                "costume_tid": 0,
+                "favorite_item_lv": 15,
+                "favorite_item_tid": 100101,
+                "grade": 0,
+                "harmony_cube_lv": 0,
+                "harmony_cube_tid": 0,
+                "head_equip_corporation_type": 3,
+                "head_equip_lv": 0,
+                "head_equip_option1_id": 0,
+                "head_equip_option2_id": 0,
+                "head_equip_option3_id": 0,
+                "head_equip_tid": 3120901,
+                "head_equip_tier": 9,
+                "leg_equip_corporation_type": 3,
+                "leg_equip_lv": 0,
+                "leg_equip_option1_id": 0,
+                "leg_equip_option2_id": 0,
+                "leg_equip_option3_id": 0,
+                "leg_equip_tid": 3420901,
+                "leg_equip_tier": 9,
+                "lv": 1,
+                "name_code": 5008,
+                "skill1_lv": 4,
+                "skill2_lv": 4,
+                "torso_equip_corporation_type": 3,
+                "torso_equip_lv": 0,
+                "torso_equip_option1_id": 0,
+                "torso_equip_option2_id": 0,
+                "torso_equip_option3_id": 0,
+                "torso_equip_tid": 3220901,
+                "torso_equip_tier": 9,
+                "ulti_skill_lv": 7
+            },
+            {
+                "arena_combat": 63282,
+                "arena_harmony_cube_lv": 4,
+                "arena_harmony_cube_tid": 1000302,
+                "arm_equip_corporation_type": 0,
+                "arm_equip_lv": 0,
+                "arm_equip_option1_id": 7000508,
+                "arm_equip_option2_id": 7000609,
+                "arm_equip_option3_id": 0,
+                "arm_equip_tid": 3311001,
+                "arm_equip_tier": 10,
+                "attractive_lv": 1,
+                "combat": 61783,
+                "core": 0,
+                "costume_tid": 110024,
+                "favorite_item_lv": 15,
+                "favorite_item_tid": 100301,
+                "grade": 0,
+                "harmony_cube_lv": 0,
+                "harmony_cube_tid": 0,
+                "head_equip_corporation_type": 0,
+                "head_equip_lv": 0,
+                "head_equip_option1_id": 7000511,
+                "head_equip_option2_id": 7000611,
+                "head_equip_option3_id": 0,
+                "head_equip_tid": 3111001,
+                "head_equip_tier": 10,
+                "leg_equip_corporation_type": 0,
+                "leg_equip_lv": 0,
+                "leg_equip_option1_id": 7000811,
+                "leg_equip_option2_id": 7001311,
+                "leg_equip_option3_id": 7001011,
+                "leg_equip_tid": 3411001,
+                "leg_equip_tier": 10,
+                "lv": 1,
+                "name_code": 5152,
+                "skill1_lv": 10,
+                "skill2_lv": 10,
+                "torso_equip_corporation_type": 0,
+                "torso_equip_lv": 0,
+                "torso_equip_option1_id": 7001009,
+                "torso_equip_option2_id": 7001301,
+                "torso_equip_option3_id": 7000510,
+                "torso_equip_tid": 3211001,
+                "torso_equip_tier": 10,
+                "ulti_skill_lv": 7
+            },
+            {
+                "arena_combat": 67610,
+                "arena_harmony_cube_lv": 0,
+                "arena_harmony_cube_tid": 0,
+                "arm_equip_corporation_type": 0,
+                "arm_equip_lv": 0,
+                "arm_equip_option1_id": 7000508,
+                "arm_equip_option2_id": 7001010,
+                "arm_equip_option3_id": 7000704,
+                "arm_equip_tid": 3331001,
+                "arm_equip_tier": 10,
+                "attractive_lv": 4,
+                "combat": 69071,
+                "core": 0,
+                "costume_tid": 0,
+                "favorite_item_lv": 15,
+                "favorite_item_tid": 100202,
+                "grade": 0,
+                "harmony_cube_lv": 3,
+                "harmony_cube_tid": 1000301,
+                "head_equip_corporation_type": 0,
+                "head_equip_lv": 0,
+                "head_equip_option1_id": 7000903,
+                "head_equip_option2_id": 7000513,
+                "head_equip_option3_id": 0,
+                "head_equip_tid": 3131001,
+                "head_equip_tier": 10,
+                "leg_equip_corporation_type": 0,
+                "leg_equip_lv": 0,
+                "leg_equip_option1_id": 7000811,
+                "leg_equip_option2_id": 7001111,
+                "leg_equip_option3_id": 0,
+                "leg_equip_tid": 3431001,
+                "leg_equip_tier": 10,
+                "lv": 1,
+                "name_code": 5130,
+                "skill1_lv": 10,
+                "skill2_lv": 10,
+                "torso_equip_corporation_type": 0,
+                "torso_equip_lv": 0,
+                "torso_equip_option1_id": 7000611,
+                "torso_equip_option2_id": 7001211,
+                "torso_equip_option3_id": 0,
+                "torso_equip_tid": 3231001,
+                "torso_equip_tier": 10,
+                "ulti_skill_lv": 10
+            }
+        ],
+        "state_effects": [
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 828,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "IncElementDmg",
+                        "function_value": 2215,
+                        "function_value_type": "Percent",
+                        "id": 700051001,
+                        "level": 10,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700051001
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000510",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 1076,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "IncElementDmg",
+                        "function_value": 2636,
+                        "function_value_type": "Percent",
+                        "id": 700051301,
+                        "level": 13,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700051301
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000513",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 276,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAmmoLoad",
+                        "function_value": 4017,
+                        "function_value_type": "Percent",
+                        "id": 700070401,
+                        "level": 4,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700070401
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000704",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 759,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeTime",
+                        "function_value": -492,
+                        "function_value_type": "Percent",
+                        "id": 700101101,
+                        "level": 11,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700101101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001011",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 759,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatCriticalDamage",
+                        "function_value": 1644,
+                        "function_value_type": "Integer",
+                        "id": 700121101,
+                        "level": 11,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700121101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001211",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 414,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAtk",
+                        "function_value": 829,
+                        "function_value_type": "Percent",
+                        "id": 700080601,
+                        "level": 6,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700080601
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000806",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 690,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatCritical",
+                        "function_value": 537,
+                        "function_value_type": "Integer",
+                        "id": 700111001,
+                        "level": 10,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700111001
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001110",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 621,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatDef",
+                        "function_value": 1040,
+                        "function_value_type": "Percent",
+                        "id": 700130901,
+                        "level": 9,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700130901
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001309",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 759,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatCritical",
+                        "function_value": 571,
+                        "function_value_type": "Integer",
+                        "id": 700111101,
+                        "level": 11,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700111101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001111",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 483,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAccuracyCircle",
+                        "function_value": -900,
+                        "function_value_type": "Percent",
+                        "id": 700060701,
+                        "level": 7,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700060701
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000607",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 69,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAmmoLoad",
+                        "function_value": 2784,
+                        "function_value_type": "Percent",
+                        "id": 700070101,
+                        "level": 1,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700070101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000701",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 759,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeDamage",
+                        "function_value": 1181,
+                        "function_value_type": "Integer",
+                        "id": 700091101,
+                        "level": 11,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700091101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000911",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 483,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeTime",
+                        "function_value": -375,
+                        "function_value_type": "Percent",
+                        "id": 700100701,
+                        "level": 7,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700100701
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001007",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 621,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeTime",
+                        "function_value": -433,
+                        "function_value_type": "Percent",
+                        "id": 700100901,
+                        "level": 9,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700100901
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001009",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 662,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "IncElementDmg",
+                        "function_value": 1935,
+                        "function_value_type": "Percent",
+                        "id": 700050801,
+                        "level": 8,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700050801
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000508",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 745,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "IncElementDmg",
+                        "function_value": 2075,
+                        "function_value_type": "Percent",
+                        "id": 700050901,
+                        "level": 9,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700050901
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000509",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 207,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeDamage",
+                        "function_value": 618,
+                        "function_value_type": "Integer",
+                        "id": 700090301,
+                        "level": 3,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700090301
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000903",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 621,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeDamage",
+                        "function_value": 1040,
+                        "function_value_type": "Integer",
+                        "id": 700090901,
+                        "level": 9,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700090901
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000909",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 248,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "IncElementDmg",
+                        "function_value": 1234,
+                        "function_value_type": "Percent",
+                        "id": 700050301,
+                        "level": 3,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700050301
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000503",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 345,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAmmoLoad",
+                        "function_value": 4428,
+                        "function_value_type": "Percent",
+                        "id": 700070501,
+                        "level": 5,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700070501
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000705",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 759,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAmmoLoad",
+                        "function_value": 6893,
+                        "function_value_type": "Percent",
+                        "id": 700071101,
+                        "level": 11,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700071101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000711",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 759,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatDef",
+                        "function_value": 1181,
+                        "function_value_type": "Percent",
+                        "id": 700131101,
+                        "level": 11,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700131101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001311",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 690,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeTime",
+                        "function_value": -463,
+                        "function_value_type": "Percent",
+                        "id": 700101001,
+                        "level": 10,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700101001
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001010",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 414,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatCriticalDamage",
+                        "function_value": 1154,
+                        "function_value_type": "Integer",
+                        "id": 700120601,
+                        "level": 6,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700120601
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001206",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 621,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAccuracyCircle",
+                        "function_value": -1040,
+                        "function_value_type": "Percent",
+                        "id": 700060901,
+                        "level": 9,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700060901
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000609",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 759,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAccuracyCircle",
+                        "function_value": -1181,
+                        "function_value_type": "Percent",
+                        "id": 700061101,
+                        "level": 11,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700061101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000611",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 759,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAtk",
+                        "function_value": 1181,
+                        "function_value_type": "Percent",
+                        "id": 700081101,
+                        "level": 11,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700081101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000811",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 1035,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatAtk",
+                        "function_value": 1463,
+                        "function_value_type": "Percent",
+                        "id": 700081501,
+                        "level": 15,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700081501
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000815",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 414,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeTime",
+                        "function_value": -345,
+                        "function_value_type": "Percent",
+                        "id": 700100601,
+                        "level": 6,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700100601
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001006",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 911,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "IncElementDmg",
+                        "function_value": 2356,
+                        "function_value_type": "Percent",
+                        "id": 700051101,
+                        "level": 11,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700051101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000511",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 1159,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "IncElementDmg",
+                        "function_value": 2776,
+                        "function_value_type": "Percent",
+                        "id": 700051401,
+                        "level": 14,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700051401
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000514",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 69,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatDef",
+                        "function_value": 477,
+                        "function_value_type": "Percent",
+                        "id": 700130101,
+                        "level": 1,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700130101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7001301",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 69,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeDamage",
+                        "function_value": 477,
+                        "function_value_type": "Integer",
+                        "id": 700090101,
+                        "level": 1,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700090101
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000901",
+                "use_function_id_list": [
+                    0
+                ]
+            },
+            {
+                "function_details": [
+                    {
+                        "buff": "BuffEtc",
+                        "buff_icon": "",
+                        "duration_type": "Battles",
+                        "duration_value": 0,
+                        "function_battlepower": 414,
+                        "function_standard": "User",
+                        "function_target": "Self",
+                        "function_type": "StatChargeDamage",
+                        "function_value": 829,
+                        "function_value_type": "Integer",
+                        "id": 700090601,
+                        "level": 6,
+                        "name_localvalues": "-"
+                    }
+                ],
+                "functions": [
+                    700090601
+                ],
+                "hurt_function_id_list": [
+                    0
+                ],
+                "icon": "icn_skill_public_01",
+                "id": "7000906",
+                "use_function_id_list": [
+                    0
+                ]
+            }
+        ],
+        "trace_id": "a2b9ed5d-f204-4d3c-9fd7-e8041a98d783"
+    },
+    "seq": "a2b9ed5d-f204-4d3c-9fd7-e8041a98d783"
+}

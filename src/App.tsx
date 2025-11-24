@@ -1,11 +1,23 @@
 import { useState, useEffect } from 'react';
-import { Box, Container, Heading, ChakraProvider, extendTheme, Alert, AlertIcon, AlertTitle, AlertDescription, Button } from '@chakra-ui/react';
+import {
+  Box,
+  Container,
+  Heading,
+  ChakraProvider,
+  extendTheme,
+  Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,
+  Button,
+} from '@chakra-ui/react';
 import type { Nikke } from './types';
 import { allNikkes } from './data';
 import { TeamDeck } from './components/TeamDeck';
 import { CharacterPool } from './components/CharacterPool';
 import { BurstStats } from './components/BurstStats';
 import { useAutoUpdate } from './hooks/useAutoUpdate';
+import { ApiImportModal } from './components/ApiImportModal';
 
 const theme = extendTheme({
   config: {
@@ -17,13 +29,12 @@ const theme = extendTheme({
 const STORAGE_KEY = 'nikke-team-builder-selected-team';
 
 function App() {
+  // Persisted team state
   const [selectedTeam, setSelectedTeam] = useState<Nikke[]>(() => {
-    // Load team from localStorage on mount
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const teamIds = JSON.parse(saved) as string[];
-        // Reconstruct team from IDs
         return teamIds
           .map(id => allNikkes.find(n => n.id === id))
           .filter((n): n is Nikke => n !== undefined);
@@ -33,9 +44,15 @@ function App() {
     }
     return [];
   });
+
+  // Modal state for API import workflow
+  const [isImportOpen, setIsImportOpen] = useState(false);
+  const openImport = () => setIsImportOpen(true);
+  const closeImport = () => setIsImportOpen(false);
+
   const { isUpdateAvailable, reload } = useAutoUpdate();
 
-  // Save team to localStorage whenever it changes
+  // Save team changes
   useEffect(() => {
     try {
       const teamIds = selectedTeam.map(n => n.id);
@@ -46,19 +63,15 @@ function App() {
   }, [selectedTeam]);
 
   const handleSelect = (nikke: Nikke) => {
-    if (selectedTeam.find((n) => n.id === nikke.id)) {
-      // Deselect if already selected
-      setSelectedTeam(selectedTeam.filter((n) => n.id !== nikke.id));
-    } else {
-      // Select if not full
-      if (selectedTeam.length < 5) {
-        setSelectedTeam([...selectedTeam, nikke]);
-      }
+    if (selectedTeam.find(n => n.id === nikke.id)) {
+      setSelectedTeam(selectedTeam.filter(n => n.id !== nikke.id));
+    } else if (selectedTeam.length < 5) {
+      setSelectedTeam([...selectedTeam, nikke]);
     }
   };
 
   const handleRemove = (nikke: Nikke) => {
-    setSelectedTeam(selectedTeam.filter((n) => n.id !== nikke.id));
+    setSelectedTeam(selectedTeam.filter(n => n.id !== nikke.id));
   };
 
   return (
@@ -79,16 +92,21 @@ function App() {
               </Button>
             </Alert>
           )}
-          <Heading color="white" mb={8} textAlign="center">Nikke Team Builder</Heading>
-          
-          <TeamDeck selectedTeam={selectedTeam} onRemove={handleRemove} />
-          
-          <BurstStats selectedTeam={selectedTeam} />
+          <Heading color="white" mb={8} textAlign="center">
+            Nikke Team Builder
+          </Heading>
+          {/* Import button */}
+          <Button onClick={openImport} colorScheme="teal" mb={4}>
+            Import from API
+          </Button>
+          <ApiImportModal isOpen={isImportOpen} onClose={closeImport} />
 
-          <CharacterPool 
-            nikkes={allNikkes} 
-            onSelect={handleSelect} 
-            selectedIds={selectedTeam.map(n => n.id)} 
+          <TeamDeck selectedTeam={selectedTeam} onRemove={handleRemove} />
+          <BurstStats selectedTeam={selectedTeam} />
+          <CharacterPool
+            nikkes={allNikkes}
+            onSelect={handleSelect}
+            selectedIds={selectedTeam.map(n => n.id)}
           />
         </Container>
       </Box>

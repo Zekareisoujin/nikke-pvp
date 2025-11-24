@@ -7,14 +7,6 @@ interface BurstStatsProps {
   selectedTeam: Nikke[];
 }
 
-const TIERS = [
-  { key: '2RL', label: '2 RL BURST' },
-  { key: '5SG(2.5RL)', label: '2.5 RL BURST(5sg)' },
-  { key: '3RL', label: '3 RL BURST' },
-  { key: '7SG(3.5RL)', label: '3.5 RL BURST(7sg)' },
-  { key: '4RL', label: '4 RL BURST' },
-];
-
 const CUBE_VALUES: Record<CubeLevel, number> = {
   'No': 0,
   'level 1': 0.0233,
@@ -63,17 +55,6 @@ export const BurstStats = ({ selectedTeam }: BurstStatsProps) => {
     return `${min} to ${max}`;
   };
 
-  const calculateTeamGenRating = () => {
-    for (const tier of TIERS) {
-      if (calculateGen(tier.key) >= 100) {
-        return tier.label;
-      }
-    }
-    return 'No Full Burst';
-  };
-
-  const teamGenRating = calculateTeamGenRating();
-
   return (
     <Box w="100%" borderRadius="lg" overflow="hidden" mb={4} boxShadow="lg">
       <Box p={4} bg={bg}>
@@ -110,31 +91,6 @@ export const BurstStats = ({ selectedTeam }: BurstStatsProps) => {
             ))}
           </Tbody>
         </Table>
-
-        {/* Stats Table */}
-        <Table variant="simple" size="sm">
-          <Thead>
-            <Tr>
-              <Th>Tier</Th>
-              <Th isNumeric>Gen in each tier</Th>
-              <Th isNumeric>Bullets in each tier</Th>
-            </Tr>
-          </Thead>
-          <Tbody>
-            {TIERS.map((tier) => (
-              <Tr key={tier.key}>
-                <Td>{tier.label}</Td>
-                <Td isNumeric>{calculateGen(tier.key)}</Td>
-                <Td isNumeric>{calculateBullets(tier.key)}</Td>
-              </Tr>
-            ))}
-          </Tbody>
-        </Table>
-      </Box>
-      
-      {/* Team Gen Rating Bar */}
-      <Box bg="blue.500" p={2} color="white">
-        <Text fontWeight="bold">Team Gen Rating: {teamGenRating}</Text>
       </Box>
     </Box>
   );

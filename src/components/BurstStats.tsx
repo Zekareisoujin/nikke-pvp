@@ -2,18 +2,18 @@ import { Box, Table, Thead, Tbody, Tr, Th, Td, Text, useColorModeValue, Select, 
 import { ChevronDownIcon, ChevronUpIcon } from '@chakra-ui/icons';
 import { useState } from 'react';
 import type { Nikke, CubeLevel } from '../types';
-import { burstGenData, cubeBurstGenData, feedChart1Data, feedChart2Data } from '../burstGenData';
+// import { burstGenData, cubeBurstGenData, feedChart1Data, feedChart2Data } from '../burstGenData';
 
 interface BurstStatsProps {
   selectedTeam: Nikke[];
 }
 
-const CUBE_VALUES: Record<CubeLevel, number> = {
-  'No': 0,
-  'level 1': 0.0233,
-  'level 3': 0.035,
-  'level 7': 0.0466,
-};
+// const CUBE_VALUES: Record<CubeLevel, number> = {
+//   'No': 0,
+//   'level 1': 0.0233,
+//   'level 3': 0.035,
+//   'level 7': 0.0466,
+// };
 
 export const BurstStats = ({ selectedTeam }: BurstStatsProps) => {
   const bg = useColorModeValue('white', 'gray.800');
@@ -26,36 +26,36 @@ export const BurstStats = ({ selectedTeam }: BurstStatsProps) => {
     setCubeLevels(newLevels);
   };
 
-  const calculateGen = (tierKey: string) => {
-    let total = 0;
-    selectedTeam.forEach((nikke, index) => {
-      const charData = burstGenData[nikke.name];
-      const cubeData = cubeBurstGenData[nikke.name];
-      const cubeValue = CUBE_VALUES[cubeLevels[index]];
+  // const calculateGen = (tierKey: string) => {
+  //   let total = 0;
+  //   selectedTeam.forEach((nikke, index) => {
+  //     const charData = burstGenData[nikke.name];
+  //     const cubeData = cubeBurstGenData[nikke.name];
+  //     const cubeValue = CUBE_VALUES[cubeLevels[index]];
 
-      if (charData) {
-        let val = charData[tierKey] || 0;
-        if (cubeData && cubeValue > 0) {
-          val += (cubeData[tierKey] || 0) * cubeValue;
-        }
-        total += val;
-      }
-    });
-    return parseFloat(total.toFixed(5)); // Match precision from screenshot
-  };
+  //     if (charData) {
+  //       let val = charData[tierKey] || 0;
+  //       if (cubeData && cubeValue > 0) {
+  //         val += (cubeData[tierKey] || 0) * cubeValue;
+  //       }
+  //       total += val;
+  //     }
+  //   });
+  //   return parseFloat(total.toFixed(5)); // Match precision from screenshot
+  // };
 
-  const calculateBullets = (tierKey: string) => {
-    let min = 0;
-    let max = 0;
-    selectedTeam.forEach((nikke) => {
-      const minData = feedChart1Data[nikke.name];
-      const maxData = feedChart2Data[nikke.name];
+  // const calculateBullets = (tierKey: string) => {
+  //   let min = 0;
+  //   let max = 0;
+  //   selectedTeam.forEach((nikke) => {
+  //     const minData = feedChart1Data[nikke.name];
+  //     const maxData = feedChart2Data[nikke.name];
       
-      if (minData) min += minData[tierKey] || 0;
-      if (maxData) max += maxData[tierKey] || 0;
-    });
-    return `${min} to ${max}`;
-  };
+  //     if (minData) min += minData[tierKey] || 0;
+  //     if (maxData) max += maxData[tierKey] || 0;
+  //   });
+  //   return `${min} to ${max}`;
+  // };
 
   return (
     <Box w="100%" borderRadius="lg" overflow="hidden" mb={4} boxShadow="lg">

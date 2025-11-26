@@ -53,43 +53,45 @@ const isRarity = (value: string): value is Rarity => {
 
 export const allNikkes: Nikke[] = Object.entries(
   characterMetadata as Record<string, CharacterMetadata>
-).map(([code, meta]) => {
-  // Validate and throw errors for invalid data
-  if (!isBurstType(meta.burstType)) {
-    console.warn(`Invalid burstType for ${meta.name}: ${meta.burstType}`);
-  }
-  if (!isClassType(meta.class)) {
-    console.warn(`Invalid classType for ${meta.name}: ${meta.class}`);
-  }
-  if (!isElement(meta.element)) {
-    console.warn(`Invalid element for ${meta.name}: ${meta.element}`);
-  }
-  if (!isWeaponType(meta.weaponType)) {
-    console.warn(`Invalid weaponType for ${meta.name}: ${meta.weaponType}`);
-  }
-  if (!isRarity(meta.rarity)) {
-    console.warn(`Invalid rarity for ${meta.name}: ${meta.rarity}`);
-  }
+)
+  .reverse()
+  .map(([code, meta]) => {
+    // Validate and throw errors for invalid data
+    if (!isBurstType(meta.burstType)) {
+      console.warn(`Invalid burstType for ${meta.name}: ${meta.burstType}`);
+    }
+    if (!isClassType(meta.class)) {
+      console.warn(`Invalid classType for ${meta.name}: ${meta.class}`);
+    }
+    if (!isElement(meta.element)) {
+      console.warn(`Invalid element for ${meta.name}: ${meta.element}`);
+    }
+    if (!isWeaponType(meta.weaponType)) {
+      console.warn(`Invalid weaponType for ${meta.name}: ${meta.weaponType}`);
+    }
+    if (!isRarity(meta.rarity)) {
+      console.warn(`Invalid rarity for ${meta.name}: ${meta.rarity}`);
+    }
 
-  // Derive icons from character attributes
-  const element = isElement(meta.element) ? meta.element : 'Fire';
-  const weaponType = isWeaponType(meta.weaponType) ? meta.weaponType : 'AR';
-  const burstType = isBurstType(meta.burstType) ? meta.burstType : '1';
-  const classType = isClassType(meta.class) ? meta.class : 'Attacker';
+    // Derive icons from character attributes
+    const element = isElement(meta.element) ? meta.element : 'Fire';
+    const weaponType = isWeaponType(meta.weaponType) ? meta.weaponType : 'AR';
+    const burstType = isBurstType(meta.burstType) ? meta.burstType : '1';
+    const classType = isClassType(meta.class) ? meta.class : 'Attacker';
 
-  return {
-    id: code,
-    name: meta.name,
-    burstType,
-    classType,
-    element,
-    manufacturer: 'TODO',
-    weaponType,
-    imageUrl: meta.imageUrl,
-    rarity: isRarity(meta.rarity) ? meta.rarity : 'SSR',
-    elementIcon: icons.element[element],
-    weaponIcon: icons.weapon[weaponType],
-    burstIcon: icons.burst[burstType],
-    classIcon: icons.class[classType],
-  };
-});
+    return {
+      id: code,
+      name: meta.name,
+      burstType,
+      classType,
+      element,
+      manufacturer: 'TODO',
+      weaponType,
+      imageUrl: meta.imageUrl,
+      rarity: isRarity(meta.rarity) ? meta.rarity : 'SSR',
+      elementIcon: icons.element[element],
+      weaponIcon: icons.weapon[weaponType],
+      burstIcon: icons.burst[burstType],
+      classIcon: icons.class[classType],
+    };
+  });

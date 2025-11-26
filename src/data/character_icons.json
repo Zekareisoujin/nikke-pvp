@@ -201,7 +201,7 @@
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-iron.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-rocket_launcher.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-2.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--yellow.png"
   },
   "Soda: Twinkling Bunny": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-iron.png",
@@ -297,25 +297,25 @@
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-water.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-rocket_launcher.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "Belorta": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-electronic.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-rocket_launcher.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-2.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--yellow.png"
   },
   "Mica": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-wind.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-rocket_launcher.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "Soldier FA": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-iron.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-shot_gun.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-2.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--blue.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--yellow.png"
   },
   "Drake": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-fire.png",
@@ -549,96 +549,96 @@
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-fire.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-assault_rifle.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-3.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--yellow.png"
   },
   "Mihara": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-water.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-assault_rifle.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-3.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--yellow.png"
   },
   "Neon": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-fire.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-shot_gun.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "Delta": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-wind.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-sniper_rifle.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-2.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--yellow.png"
   },
   "Ether": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-electronic.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-shot_gun.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--yellow.png"
   },
   "Claire": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-electronic.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-rocket_launcher.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "Pascal": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-iron.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-rocket_launcher.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "Lily": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-wind.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-sub_machine_gun.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-2.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--purple.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "Soldier EG": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-electronic.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-assault_rifle.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-3.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--blue.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--yellow.png"
   },
   "iDoll Sun": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-iron.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-assault_rifle.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-3.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--blue.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "Product 23": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-wind.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-shot_gun.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-2.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--blue.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "iDoll Flower": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-wind.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-rocket_launcher.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--blue.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--yellow.png"
   },
   "Product 12": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-fire.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-machine_gun.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-3.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--blue.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--yellow.png"
   },
   "iDoll Ocean": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-water.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-sub_machine_gun.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--blue.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "Soldier OW": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-fire.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-sub_machine_gun.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--blue.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   },
   "Product 08": {
     "elementIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-electronic.png",
     "weaponIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-sniper_rifle.png",
     "burstIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
-    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--blue.png"
+    "classIcon": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
   }
 }

@@ -1,6 +1,6 @@
 import { Box, HStack, VStack, Text } from '@chakra-ui/react';
 import type { Nikke } from '../types';
-import { CharacterCard } from './CharacterCard';
+import { TeamDeckCard } from './TeamDeckCard';
 import { burstGenData } from '../burstGenData';
 
 interface TeamDeckProps {
@@ -55,14 +55,14 @@ export const TeamDeck = ({ selectedTeam, onRemove }: TeamDeckProps) => {
   return (
     <Box w="100%" p={4} bg="gray.900" borderRadius="lg" mb={4}>
       <Text color="white" mb={4} fontWeight="bold">Current Team</Text>
-      
+
       {/* Burst Generation Display */}
       <HStack spacing={3} justify="center" mb={4}>
         {TIERS.map((tier) => {
           const gen = calculateGen(tier.key);
           const isFinalTier = tier.key === finalTier;
           const percentage = `${gen.toFixed(2)}%`;
-          
+
           return (
             <VStack
               key={tier.key}
@@ -78,10 +78,10 @@ export const TeamDeck = ({ selectedTeam, onRemove }: TeamDeckProps) => {
                 fontSize="md"
                 fontWeight="bold"
                 color={
-                  !teamCanBurst 
-                    ? 'red.500' 
-                    : gen >= 100 
-                      ? 'green.400' 
+                  !teamCanBurst
+                    ? 'red.500'
+                    : gen >= 100
+                      ? 'green.400'
                       : 'white'
                 }
               >
@@ -91,10 +91,10 @@ export const TeamDeck = ({ selectedTeam, onRemove }: TeamDeckProps) => {
                 fontSize="sm"
                 fontWeight="semibold"
                 color={
-                  !teamCanBurst 
-                    ? 'red.500' 
-                    : gen >= 100 
-                      ? 'green.400' 
+                  !teamCanBurst
+                    ? 'red.500'
+                    : gen >= 100
+                      ? 'green.400'
                       : 'gray.400'
                 }
               >
@@ -123,27 +123,7 @@ export const TeamDeck = ({ selectedTeam, onRemove }: TeamDeckProps) => {
               position="relative"
             >
               {nikke ? (
-                <Box 
-                  w="100px" 
-                  h="100px" 
-                  overflow="hidden" 
-                  borderRadius="md"
-                  cursor="pointer"
-                  onClick={() => onRemove(nikke)}
-                  transition="all 0.2s"
-                  _hover={{ opacity: 0.8 }}
-                  position="relative"
-                >
-                  <Box
-                    position="absolute"
-                    top="50%"
-                    left="50%"
-                    transform="translate(-50%, -35%) scale(0.833)"
-                    transformOrigin="center"
-                  >
-                    <CharacterCard nikke={nikke} onClick={() => {}} hideIcons />
-                  </Box>
-                </Box>
+                <TeamDeckCard nikke={nikke} onClick={() => onRemove(nikke)} />
               ) : (
                 <Text color="gray.500" fontSize="sm">Slot {index + 1}</Text>
               )}

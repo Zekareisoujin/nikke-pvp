@@ -1,4 +1,4 @@
-import { Box, Image, Text, VStack, HStack, Icon } from '@chakra-ui/react';
+import { Box, Image, Text, VStack } from '@chakra-ui/react';
 import type { Nikke } from '../types';
 
 interface CharacterCardProps {
@@ -19,7 +19,8 @@ const HexagonIcon = ({ src, alt }: { src?: string; alt: string }) => {
       alignItems="center"
       justifyContent="center"
       sx={{
-        clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+        clipPath:
+          'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
       }}
       bg="gray.800"
     >
@@ -31,7 +32,8 @@ const HexagonIcon = ({ src, alt }: { src?: string; alt: string }) => {
         alignItems="center"
         justifyContent="center"
         sx={{
-          clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+          clipPath:
+            'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
         }}
       >
         <Image src={src} alt={alt} boxSize="20px" />
@@ -40,7 +42,12 @@ const HexagonIcon = ({ src, alt }: { src?: string; alt: string }) => {
   );
 };
 
-export const CharacterCard = ({ nikke, onClick, isSelected, hideIcons = false }: CharacterCardProps) => {
+export const CharacterCard = ({
+  nikke,
+  onClick,
+  isSelected,
+  hideIcons = false,
+}: CharacterCardProps) => {
   const borderColor = isSelected ? 'blue.500' : 'transparent';
 
   return (
@@ -53,7 +60,7 @@ export const CharacterCard = ({ nikke, onClick, isSelected, hideIcons = false }:
       position="relative"
       transition="all 0.2s"
       _hover={{ transform: 'scale(1.05)' }}
-      boxShadow={isSelected ? "0 0 0 3px #3182ce" : "none"}
+      boxShadow={isSelected ? '0 0 0 3px #3182ce' : 'none'}
     >
       {/* Inner Content Container */}
       <Box
@@ -108,14 +115,14 @@ export const CharacterCard = ({ nikke, onClick, isSelected, hideIcons = false }:
             h="45px"
             bg="rgba(0, 0, 0, 0.8)"
             sx={{
-              clipPath: "polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%)",
+              clipPath: 'polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%)',
             }}
           />
 
           {/* Content Container (No Clip Path) */}
           <Box
             position="absolute"
-            bottom="8px"
+            bottom="0"
             right="0"
             w="100%"
             h="45px"

@@ -99,11 +99,29 @@ const mapBurstSkill = (useBurstSkill: string): BurstType => {
   }
 };
 
+const mapElement = (element: string): Element => {
+  switch (element) {
+    case 'Fire':
+      return 'Fire';
+    case 'Water':
+      return 'Water';
+    case 'Wind':
+      return 'Wind';
+    case 'Iron':
+      return 'Iron';
+    case 'Electronic':
+      return 'Electric';
+    default:
+      console.warn(`Unknown element: ${element}`);
+      return 'Fire';
+  }
+};
+
 export const allNikkes: Nikke[] = (characterMetadata as CharacterMetadata[])
   .filter((meta) => meta.is_visible)
   .map((meta) => {
     const name = meta.name_localkey.name;
-    const element = meta.element_id.element.element;
+    const element = mapElement(meta.element_id.element.element);
     const weaponType = meta.shot_id.element.weapon_type;
     const burstType = mapBurstSkill(meta.use_burst_skill);
     const classType = meta.class;
@@ -112,9 +130,6 @@ export const allNikkes: Nikke[] = (characterMetadata as CharacterMetadata[])
     const nameCode = meta.name_code.toString();
 
     // Validate data
-    if (!isElement(element)) {
-      console.warn(`Invalid element for ${name}: ${element}`);
-    }
     if (!isWeaponType(weaponType)) {
       console.warn(`Invalid weaponType for ${name}: ${weaponType}`);
     }

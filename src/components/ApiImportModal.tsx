@@ -17,7 +17,7 @@ import {
 } from '@chakra-ui/react';
 import { parseFetchCommand } from '../utils/fetchParser';
 import { generateFetchScript } from '../utils/scriptGenerator';
-import characterMetadata from '../data/character_metadata.json';
+import characterMetadata from '../data/character_metadata_2.json';
 
 /**
  * Simple modal that guides the user through the 3‑step API import workflow:
@@ -25,7 +25,13 @@ import characterMetadata from '../data/character_metadata.json';
  *   2. Generate a browser‑console script that fetches *all* characters.
  *   3. Paste the JSON response back into the modal.
  */
-export const ApiImportModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => {
+export const ApiImportModal = ({
+  isOpen,
+  onClose,
+}: {
+  isOpen: boolean;
+  onClose: () => void;
+}) => {
   const [curl, setCurl] = useState('');
   const [script, setScript] = useState('');
   const [response, setResponse] = useState('');
@@ -33,9 +39,11 @@ export const ApiImportModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: 
   const toast = useToast();
 
   // All name_codes from the static metadata file
-  const allCodes: number[] = Object.keys(characterMetadata).map(k => Number(k));
+  const allCodes: number[] = (
+    characterMetadata as Array<{ name_code: number }>
+  ).map((char) => char.name_code);
 
-  const handleGenerate = () => { 
+  const handleGenerate = () => {
     try {
       const parsed = parseFetchCommand(curl);
       const generated = generateFetchScript(parsed, allCodes);
@@ -74,11 +82,13 @@ export const ApiImportModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: 
         <ModalBody>
           <VStack spacing={4} align="stretch">
             <Box>
-              <Heading size="sm" mb={2}>1️⃣ Paste your fetch command</Heading>
+              <Heading size="sm" mb={2}>
+                1️⃣ Paste your fetch command
+              </Heading>
               <Textarea
                 placeholder="fetch('https://api.blablalink.com/...'"
                 value={curl}
-                onChange={e => setCurl(e.target.value)}
+                onChange={(e) => setCurl(e.target.value)}
                 rows={6}
               />
               <Button mt={2} onClick={handleGenerate} colorScheme="teal">
@@ -88,7 +98,9 @@ export const ApiImportModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: 
 
             {script && (
               <Box>
-                <Heading size="sm" mb={2}>2️⃣ Run this script in the console on blablalink.com</Heading>
+                <Heading size="sm" mb={2}>
+                  2️⃣ Run this script in the console on blablalink.com
+                </Heading>
                 <Textarea value={script} isReadOnly rows={12} />
                 <Button
                   mt={2}
@@ -102,11 +114,13 @@ export const ApiImportModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: 
 
             {script && (
               <Box>
-                <Heading size="sm" mb={2}>3️⃣ Paste the JSON response here</Heading>
+                <Heading size="sm" mb={2}>
+                  3️⃣ Paste the JSON response here
+                </Heading>
                 <Textarea
                   placeholder="Paste the whole JSON output from the script"
                   value={response}
-                  onChange={e => setResponse(e.target.value)}
+                  onChange={(e) => setResponse(e.target.value)}
                   rows={8}
                 />
                 <Button mt={2} onClick={handleImport} colorScheme="blue">
@@ -119,7 +133,9 @@ export const ApiImportModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: 
           </VStack>
         </ModalBody>
         <ModalFooter>
-          <Button variant="ghost" onClick={onClose}>Close</Button>
+          <Button variant="ghost" onClick={onClose}>
+            Close
+          </Button>
         </ModalFooter>
       </ModalContent>
     </Modal>

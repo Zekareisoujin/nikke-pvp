@@ -2,12 +2,11 @@ export type BurstType = '1' | '2' | '3' | 'P';
 export type ClassType = 'Attacker' | 'Defender' | 'Supporter';
 export type Element = 'Fire' | 'Water' | 'Wind' | 'Iron' | 'Electric';
 export type Manufacturer =
-  | 'Elysion'
-  | 'Missilis'
-  | 'Tetra'
-  | 'Pilgrim'
-  | 'Abnormal'
-  | 'TODO';
+  | 'ELYSION'
+  | 'MISSILIS'
+  | 'TETRA'
+  | 'PILGRIM'
+  | 'ABNORMAL';
 export type WeaponType = 'AR' | 'SMG' | 'SG' | 'SR' | 'RL' | 'MG';
 export type Rarity = 'SSR' | 'SR' | 'R';
 

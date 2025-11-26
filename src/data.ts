@@ -61,11 +61,6 @@ interface IconMappings {
 const icons = iconMappings as IconMappings;
 const portraits = characterPortraits as Record<string, string>;
 
-// Type guard functions to ensure values match our types
-const isBurstType = (value: string): value is BurstType => {
-  return ['1', '2', '3', 'P'].includes(value);
-};
-
 const isClassType = (value: string): value is ClassType => {
   return ['Attacker', 'Defender', 'Supporter'].includes(value);
 };

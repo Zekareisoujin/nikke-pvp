@@ -48,8 +48,6 @@ export const CharacterCard = ({
   isSelected,
   hideIcons = false,
 }: CharacterCardProps) => {
-  const borderColor = isSelected ? 'blue.500' : 'transparent';
-
   return (
     <Box
       w="140px"

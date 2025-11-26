@@ -1,0 +1,28 @@
+{
+    "element": {
+        "Fire": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-fire.png",
+        "Water": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-water.png",
+        "Wind": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-wind.png",
+        "Iron": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-iron.png",
+        "Electric": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-code-electronic.png"
+    },
+    "weapon": {
+        "AR": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-assault_rifle.png",
+        "SMG": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-sub_machine_gun.png",
+        "SG": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-shot_gun.png",
+        "SR": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-sniper_rifle.png",
+        "RL": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-rocket_launcher.png",
+        "MG": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-weapon-machine_gun.png"
+    },
+    "burst": {
+        "1": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-1.png",
+        "2": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-2.png",
+        "3": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-3.png",
+        "P": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/icon-burst-p.png"
+    },
+    "class": {
+        "Attacker": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-attacker--yellow.png",
+        "Defender": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-defencer--yellow.png",
+        "Supporter": "https://www.blablalink.com/assets/nikke/version/default/shiftysassets/images/nikkes/nikke-job-supporter--yellow.png"
+    }
+}

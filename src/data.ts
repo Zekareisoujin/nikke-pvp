@@ -1,9 +1,13 @@
-import type { Nikke, BurstType, ClassType, Element, WeaponType, Rarity } from './types';
+import type {
+  Nikke,
+  BurstType,
+  ClassType,
+  Element,
+  WeaponType,
+  Rarity,
+} from './types';
 import characterMetadata from './data/character_metadata.json';
-
-// Transform metadata into Nikke objects with placeholder fields where data is missing.
-
-import characterIcons from './data/character_icons.json';
+import iconMappings from './data/icon_mappings.json';
 
 // Type for the metadata JSON structure
 interface CharacterMetadata {
@@ -16,9 +20,19 @@ interface CharacterMetadata {
   rarity: string;
 }
 
+// Type for icon mappings
+interface IconMappings {
+  element: Record<Element, string>;
+  weapon: Record<WeaponType, string>;
+  burst: Record<BurstType, string>;
+  class: Record<ClassType, string>;
+}
+
+const icons = iconMappings as IconMappings;
+
 // Type guard functions to ensure values match our types
 const isBurstType = (value: string): value is BurstType => {
-  return ['1', '2', '3'].includes(value);
+  return ['1', '2', '3', 'P'].includes(value);
 };
 
 const isClassType = (value: string): value is ClassType => {
@@ -37,9 +51,9 @@ const isRarity = (value: string): value is Rarity => {
   return ['SSR', 'SR', 'R'].includes(value);
 };
 
-export const allNikkes: Nikke[] = Object.entries(characterMetadata as Record<string, CharacterMetadata>).map(([code, meta]) => {
-  const icons = (characterIcons as Record<string, any>)[meta.name] || {};
-  
+export const allNikkes: Nikke[] = Object.entries(
+  characterMetadata as Record<string, CharacterMetadata>
+).map(([code, meta]) => {
   // Validate and throw errors for invalid data
   if (!isBurstType(meta.burstType)) {
     console.warn(`Invalid burstType for ${meta.name}: ${meta.burstType}`);
@@ -56,20 +70,26 @@ export const allNikkes: Nikke[] = Object.entries(characterMetadata as Record<str
   if (!isRarity(meta.rarity)) {
     console.warn(`Invalid rarity for ${meta.name}: ${meta.rarity}`);
   }
-  
+
+  // Derive icons from character attributes
+  const element = isElement(meta.element) ? meta.element : 'Fire';
+  const weaponType = isWeaponType(meta.weaponType) ? meta.weaponType : 'AR';
+  const burstType = isBurstType(meta.burstType) ? meta.burstType : '1';
+  const classType = isClassType(meta.class) ? meta.class : 'Attacker';
+
   return {
     id: code,
     name: meta.name,
-    burstType: isBurstType(meta.burstType) ? meta.burstType : '1',
-    classType: isClassType(meta.class) ? meta.class : 'Attacker',
-    element: isElement(meta.element) ? meta.element : 'Fire',
+    burstType,
+    classType,
+    element,
     manufacturer: 'TODO',
-    weaponType: isWeaponType(meta.weaponType) ? meta.weaponType : 'AR',
+    weaponType,
     imageUrl: meta.imageUrl,
     rarity: isRarity(meta.rarity) ? meta.rarity : 'SSR',
-    elementIcon: icons.elementIcon,
-    weaponIcon: icons.weaponIcon,
-    burstIcon: icons.burstIcon,
-    classIcon: icons.classIcon,
+    elementIcon: icons.element[element],
+    weaponIcon: icons.weapon[weaponType],
+    burstIcon: icons.burst[burstType],
+    classIcon: icons.class[classType],
   };
 });

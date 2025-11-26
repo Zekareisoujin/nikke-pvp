@@ -145,20 +145,36 @@ export const CharacterCard = ({
                 zIndex={0}
               />
             )}
-
             {/* Name */}
-            <Text
-              color="white"
-              fontSize="sm"
-              fontWeight="bold"
-              textAlign="right"
-              noOfLines={1}
-              w="80%"
+            <Box
+              w="90%"
+              overflow="hidden"
+              position="relative"
               zIndex={1}
               mr="2px"
             >
-              {nikke.name}
-            </Text>
+              <Text
+                color="white"
+                fontSize="sm"
+                fontWeight="bold"
+                whiteSpace="nowrap"
+                display="inline-block"
+                float="left"
+                sx={{
+                  '@keyframes scrollText': {
+                    '0%, 10%': { transform: 'translateX(0)' },
+                    '50%': { transform: 'translateX(-100%)' },
+                    '50.01%': { transform: 'translateX(100%)' },
+                    '90%, 100%': { transform: 'translateX(0)' },
+                  },
+                  ...(nikke.name.length > 15 && {
+                    animation: 'scrollText 10s linear infinite',
+                  }),
+                }}
+              >
+                {nikke.name}
+              </Text>
+            </Box>
           </Box>
 
           {/* Yellow Bottom Bar */}

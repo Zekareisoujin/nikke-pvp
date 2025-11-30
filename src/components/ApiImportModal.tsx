@@ -43,10 +43,16 @@ export const ApiImportModal = ({
   const [status, setStatus] = useState('');
   const toast = useToast();
 
-  // Load worker URL from localStorage on mount
+  // Load worker URL from env or localStorage
   useEffect(() => {
+    const envUrl = import.meta.env.VITE_WORKER_URL;
     const savedUrl = localStorage.getItem('nikke-worker-url');
-    if (savedUrl) setWorkerUrl(savedUrl);
+    
+    if (envUrl) {
+      setWorkerUrl(envUrl);
+    } else if (savedUrl) {
+      setWorkerUrl(savedUrl);
+    }
   }, []);
 
   // Save worker URL when it changes
@@ -167,9 +173,12 @@ export const ApiImportModal = ({
                 placeholder="https://your-worker.subdomain.workers.dev"
                 value={workerUrl}
                 onChange={(e) => handleWorkerUrlChange(e.target.value)}
+                isReadOnly={!!import.meta.env.VITE_WORKER_URL}
               />
               <Text fontSize="xs" color="gray.500" mt={1}>
-                The URL of your deployed Cloudflare Worker.
+                {import.meta.env.VITE_WORKER_URL 
+                  ? "Configured via environment variable." 
+                  : "The URL of your deployed Cloudflare Worker."}
               </Text>
             </Box>
 

@@ -1,10 +1,20 @@
 export default {
   async fetch(request, env, ctx) {
+    // Allowed Origins
+    const ALLOWED_ORIGINS = [
+      "https://zekareisoujin.github.io",
+      "http://nikke.localhost:3000",
+      "http://localhost:3000" // Fallback
+    ];
+
+    const origin = request.headers.get("Origin");
+    const isAllowed = ALLOWED_ORIGINS.includes(origin);
+
     // Handle CORS preflight requests
     if (request.method === "OPTIONS") {
       return new Response(null, {
         headers: {
-          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Origin": isAllowed ? origin : "null",
           "Access-Control-Allow-Methods": "POST, OPTIONS",
           "Access-Control-Allow-Headers": "Content-Type",
         },
@@ -13,6 +23,10 @@ export default {
 
     if (request.method !== "POST") {
       return new Response("Method Not Allowed", { status: 405 });
+    }
+
+    if (!isAllowed) {
+      return new Response("Forbidden: Invalid Origin", { status: 403 });
     }
 
     try {
@@ -59,7 +73,7 @@ export default {
       if (listData.code !== 0) {
           return new Response(JSON.stringify(listData), { 
               status: 200, // Return 200 so frontend can see the API error message
-              headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" }
+              headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": origin }
           });
       }
 
@@ -68,7 +82,7 @@ export default {
 
       if (nameCodes.length === 0) {
           return new Response(JSON.stringify({ code: 0, msg: "No characters found", data: { character_details: [] } }), {
-              headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" }
+              headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": origin }
           });
       }
 
@@ -93,7 +107,7 @@ export default {
         status: detailsResponse.status,
         headers: {
           "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Origin": origin,
         },
       });
 
@@ -102,7 +116,7 @@ export default {
         status: 500,
         headers: {
           "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Origin": origin,
         },
       });
     }

@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: '/nikke-pvp/',
   plugins: [react()],
+  server: {
+    host: 'nikke.localhost',
+    port: 3000,
+  },
 });

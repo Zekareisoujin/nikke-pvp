@@ -34,11 +34,13 @@ A web application for building and analyzing teams for the game **Nikke: Goddess
 - **GitHub Pages Deployment**: Automated deployment via GitHub Actions with auto-update detection
 
 ### Planned
-- **Character Data Import**: Manual import feature for real player character stats from official API
+- **Character Data Import**:
+    - **Smart Import**: Securely import your actual character stats (Level, Core, Equipment, Skills, Cube) via a secure Cloudflare Worker proxy.
+    - **Two-Step Sync**: Automatically fetches your *owned* characters list first, then fetches their details, ensuring 100% success rate without manual errors.
+    - **Privacy Focused**: Uses a transparent proxy; no credentials are stored.
 - **Save & Share**: Share team compositions via URL or image
 - **Drag & Drop**: Improved UI for organizing the team
 - **Character Pool**: Support treasure units variants
-- **Advanced Data**: Automatic integration with official API (pending CORS solution)
 - **Multi-Team Support**: Configure multiple teams at once (3 for Special Arena, 5 for Champion's Arena)
 - **Simulation**: Pit 2 teams head-to-head
 
@@ -64,6 +66,12 @@ See [API_INVESTIGATION.md](./API_INVESTIGATION.md) for detailed findings on inte
     ```
 
 3.  Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## API Import Setup
+
+To use the **Character Data Import** feature, you need to deploy a simple Cloudflare Worker to handle the secure communication with the game API.
+
+👉 **[Read the Cloudflare Setup Guide](./cloudflare_setup_guide.md)**
 
 ## Project Structure
 

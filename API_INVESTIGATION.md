@@ -12,10 +12,10 @@ POST https://api.blablalink.com/api/game/proxy/Game/GetUserCharacterDetails
 Content-Type: application/json
 Origin: https://www.blablalink.com
 Referer: https://www.blablalink.com/
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+User-Agent: Mozilla/5.0 ... (Required)
 x-channel-type: 2
 x-language: en
-x-common-params: {"game_id":"16","area_id":"global","source":"pc_web","intl_game_id":"29080","language":"en","env":"prod"}
+x-common-params: {...}
 ```
 
 ### Required Cookies
@@ -37,13 +37,21 @@ game_uid=<user_id>
 }
 ```
 
-### Payload Limits
-- ✅ **10 characters**: Works
-- ✅ **15 characters**: Works
-- ✅ **30 characters**: Works
-- ❓ **50+ characters**: Untested (session expired during test)
+## Findings (Updated)
 
-**Conclusion**: API supports **at least 30 characters per request** (3x the initial assumption)
+### 1. Ownership Requirement
+- The API **only** returns data for characters the user **owns**.
+- Requesting a character code that the user does **not** own results in error:
+  `1302125: get info list err`
+
+### 2. Batching Behavior
+- **Mixed Batches Fail**: If a request contains a mix of valid (owned) and invalid (unowned) codes, the **entire request fails** with `get info list err`.
+- **Empty/Null List Fails**: Sending `name_codes: []`, `null`, or omitting the field results in `param invalid`.
+- **Conclusion**: We cannot blindly request "all" characters. We must know the list of owned character IDs beforehand.
+
+### 3. Payload Limits
+- Valid batches of 10, 15, 30 work (if all are owned).
+- Max batch size is likely higher, but constrained by the "all owned" requirement.
 
 ## Response Structure
 
@@ -57,50 +65,7 @@ game_uid=<user_id>
       {
         "name_code": 5004,
         "lv": 1,
-        "combat": 61371,
-        "arena_combat": 58125,
-        "grade": 3,
-        "skill1_lv": 10,
-        "skill2_lv": 4,
-        "ulti_skill_lv": 10,
-        "harmony_cube_tid": 1000303,
-        "harmony_cube_lv": 8,
-        "arena_harmony_cube_tid": 0,
-        "arena_harmony_cube_lv": 0,
-        "favorite_item_tid": 100602,
-        "favorite_item_lv": 5,
-        "attractive_lv": 10,
-        "costume_tid": 0,
-        "core": 0,
-        "head_equip_tid": 3111001,
-        "head_equip_tier": 10,
-        "head_equip_lv": 0,
-        "head_equip_option1_id": 7001006,
-        "head_equip_option2_id": 7000704,
-        "head_equip_option3_id": 0,
-        "torso_equip_tid": 3211001,
-        "torso_equip_tier": 10,
-        "arm_equip_tid": 3311001,
-        "arm_equip_tier": 10,
-        "leg_equip_tid": 3411001,
-        "leg_equip_tier": 10
-      }
-    ],
-    "state_effects": [
-      {
-        "id": "7000510",
-        "icon": "icn_skill_public_01",
-        "functions": [700051001],
-        "function_details": [
-          {
-            "id": 700051001,
-            "level": 10,
-            "function_type": "IncElementDmg",
-            "function_value": 2215,
-            "function_value_type": "Percent",
-            "function_battlepower": 828
-          }
-        ]
+        ...
       }
     ]
   }
@@ -110,10 +75,7 @@ game_uid=<user_id>
 ## CORS Policy
 
 **Status**: ❌ **No CORS support**
-
-The API does **NOT** return `Access-Control-Allow-Origin` headers, meaning:
-- Direct browser requests from GitHub Pages will be **blocked**
-- OPTIONS preflight requests return **405 Method Not Allowed**
+- Requires Proxy (Serverless Worker implemented).
 
 ## Integration Options
 

@@ -93,7 +93,7 @@ function App() {
             </Alert>
           )}
           <Heading color="white" mb={8} textAlign="center">
-            Nikke Team Builder
+            Nikke PvP Team Builder
           </Heading>
           {/* Import button */}
           <Button onClick={openImport} colorScheme="teal" mb={4}>

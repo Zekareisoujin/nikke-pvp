@@ -43,22 +43,30 @@ export const ApiImportModal = ({
   const [status, setStatus] = useState('');
   const toast = useToast();
 
+  // Helper to ensure URL has protocol
+  const normalizeUrl = (url: string) => {
+    if (!url) return '';
+    if (url.startsWith('http://') || url.startsWith('https://')) return url;
+    return `https://${url}`;
+  };
+
   // Load worker URL from env or localStorage
   useEffect(() => {
     const envUrl = import.meta.env.VITE_WORKER_URL;
     const savedUrl = localStorage.getItem('nikke-worker-url');
     
     if (envUrl) {
-      setWorkerUrl(envUrl);
+      setWorkerUrl(normalizeUrl(envUrl));
     } else if (savedUrl) {
-      setWorkerUrl(savedUrl);
+      setWorkerUrl(normalizeUrl(savedUrl));
     }
   }, []);
 
   // Save worker URL when it changes
   const handleWorkerUrlChange = (val: string) => {
-    setWorkerUrl(val);
-    localStorage.setItem('nikke-worker-url', val);
+    const normalized = normalizeUrl(val);
+    setWorkerUrl(normalized);
+    localStorage.setItem('nikke-worker-url', normalized);
   };
 
   const handleImport = async () => {
@@ -165,22 +173,21 @@ export const ApiImportModal = ({
               This feature requires a Cloudflare Worker to proxy requests to the game API.
             </Alert>
 
-            <Box>
-              <Heading size="sm" mb={2}>
-                1. Worker URL
-              </Heading>
-              <Input
-                placeholder="https://your-worker.subdomain.workers.dev"
-                value={workerUrl}
-                onChange={(e) => handleWorkerUrlChange(e.target.value)}
-                isReadOnly={!!import.meta.env.VITE_WORKER_URL}
-              />
-              <Text fontSize="xs" color="gray.500" mt={1}>
-                {import.meta.env.VITE_WORKER_URL 
-                  ? "Configured via environment variable." 
-                  : "The URL of your deployed Cloudflare Worker."}
-              </Text>
-            </Box>
+            {!import.meta.env.VITE_WORKER_URL && (
+              <Box>
+                <Heading size="sm" mb={2}>
+                  1. Worker URL
+                </Heading>
+                <Input
+                  placeholder="https://your-worker.subdomain.workers.dev"
+                  value={workerUrl}
+                  onChange={(e) => handleWorkerUrlChange(e.target.value)}
+                />
+                <Text fontSize="xs" color="gray.500" mt={1}>
+                  The URL of your deployed Cloudflare Worker.
+                </Text>
+              </Box>
+            )}
 
             <Box>
               <Heading size="sm" mb={2}>
